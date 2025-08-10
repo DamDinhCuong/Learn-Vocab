@@ -8,8 +8,8 @@
   },
   {
     "word": "a bottle of water",
-    "ipa": "/ə ˈbɒtl əv ˈwɔːtər/",
-    "pos": "(n)", 
+    "ipa": "/ə ˈbɒtl əv ˈwɔːtər/", 
+    "pos": "(n)",
     "meaning": "chai nước",
     "notes": ""
   },
@@ -58,7 +58,7 @@
   {
     "word": "types of food",
     "ipa": "/taɪps əv fuːd/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "các loại thức ăn",
     "notes": ""
   },
@@ -93,7 +93,7 @@
   {
     "word": "a lot of documents",
     "ipa": "/ə lɒt əv ˈdɒkjuːmənts/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "nhiều tài liệu",
     "notes": ""
   },
@@ -121,112 +121,112 @@
   {
     "word": "Next",
     "ipa": "/nekst/",
-    "pos": "",
+    "pos": "(adv)",
     "meaning": "sau đó, tiếp theo",
     "notes": ""
   },
   {
     "word": "quiet",
     "ipa": "/ˈkwaɪət/",
-    "pos": "",
+    "pos": "(adj)",
     "meaning": "yên tĩnh",
     "notes": "≠ quite"
   },
   {
     "word": "picture",
     "ipa": "/ˈpɪktʃər/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "bức tranh; hình ảnh",
     "notes": ""
   },
   {
     "word": "microscope",
     "ipa": "/ˈmaɪkrəskəʊp/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "kính hiển vi",
     "notes": ""
   },
   {
     "word": "head",
     "ipa": "/hed/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "đầu; trưởng",
     "notes": ""
   },
   {
     "word": "stage",
     "ipa": "/steɪdʒ/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "sân khấu",
     "notes": ""
   },
   {
     "word": "comfortable",
     "ipa": "/ˈkʌmftəbl/",
-    "pos": "",
+    "pos": "(adj)",
     "meaning": "thoải mái",
     "notes": ""
   },
   {
     "word": "discount",
     "ipa": "/ˈdɪskaʊnt/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "giảm giá",
     "notes": ""
   },
   {
     "word": "visitor",
     "ipa": "/ˈvɪzɪtər/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "khách tham quan",
     "notes": ""
   },
   {
     "word": "gym",
     "ipa": "/dʒɪm/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "phòng tập",
     "notes": ""
   },
   {
     "word": "once a week",
     "ipa": "/wʌns ə wiːk/",
-    "pos": "",
+    "pos": "(adv)",
     "meaning": "một lần mỗi tuần",
     "notes": ""
   },
   {
     "word": "orientation",
     "ipa": "/ˌɔːriənˈteɪʃn/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "buổi định hướng",
     "notes": ""
   },
   {
     "word": "about",
     "ipa": "/əˈbaʊt/",
-    "pos": "",
+    "pos": "(prep)",
     "meaning": "về, về việc",
     "notes": ""
   },
   {
     "word": "workshop",
     "ipa": "/ˈwɜːkʃɒp/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "xưởng/ buổi hội thảo",
     "notes": ""
   },
   {
     "word": "advantages",
     "ipa": "/ədˈvɑːntɪdʒɪz/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "lợi thế",
     "notes": ""
   },
   {
     "word": "plane",
     "ipa": "/pleɪn/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "máy bay",
     "notes": ""
   },
@@ -240,126 +240,126 @@
   {
     "word": "week",
     "ipa": "/wiːk/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "tuần",
     "notes": ""
   },
   {
     "word": "this",
     "ipa": "/ðɪs/",
-    "pos": "",
+    "pos": "(det)",
     "meaning": "này",
     "notes": ""
   },
   {
     "word": "are",
     "ipa": "/ɑː/",
-    "pos": "",
+    "pos": "(v)",
     "meaning": "(động từ to be, số nhiều)",
     "notes": ""
   },
   {
     "word": "three",
     "ipa": "/θriː/",
-    "pos": "",
+    "pos": "(num)",
     "meaning": "ba",
     "notes": ""
   },
   {
     "word": "six",
     "ipa": "/sɪks/",
-    "pos": "",
+    "pos": "(num)",
     "meaning": "sáu",
     "notes": ""
   },
   {
     "word": "man",
     "ipa": "/mæn/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "đàn ông",
     "notes": "plural: men"
   },
   {
     "word": "men",
     "ipa": "/men/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "những người đàn ông",
     "notes": ""
   },
   {
     "word": "walk",
     "ipa": "/wɔːk/",
-    "pos": "",
+    "pos": "(v)",
     "meaning": "đi bộ",
     "notes": "≠ work"
   },
   {
     "word": "work",
     "ipa": "/wɜːk/",
-    "pos": "",
+    "pos": "(v)",
     "meaning": "làm việc",
     "notes": ""
   },
   {
     "word": "In this picture, it is",
     "ipa": "/ɪn ðɪs ˈpɪktʃər ɪt ɪz/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "Dùng để mô tả bức tranh",
     "notes": ""
   },
   {
     "word": "I can see",
     "ipa": "/aɪ kæn siː/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "Tôi có thể thấy",
     "notes": ""
   },
   {
     "word": "Next, there are / is",
     "ipa": "/nekst ðeər ɑː/ɪz/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "Tiếp theo, có...",
     "notes": ""
   },
   {
     "word": "They seem to be working hard / busy / having a great time",
     "ipa": "/ðeɪ siːm tə bi ˈwɜːkɪŋ hɑːd/ˈbɪzi/ˈhævɪŋ ə ɡreɪt taɪm/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "Họ có vẻ đang làm việc chăm chỉ / bận rộn / có thời gian vui vẻ",
     "notes": ""
   },
   {
     "word": "object / device",
     "ipa": "/ˈɒbdʒekt/dɪˈvaɪs/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "vật; thiết bị",
     "notes": ""
   },
   {
     "word": "some of",
     "ipa": "/sʌm əv/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "một vài trong số",
     "notes": ""
   },
   {
     "word": "on a piece of paper",
     "ipa": "/ɒn ə piːs əv ˈpeɪpər/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "trên 1 tờ giấy",
     "notes": ""
   },
   {
     "word": "using / writing / hanging / holding / pushing (a cart) / sitting",
     "ipa": "/ˈjuːzɪŋ/ˈraɪtɪŋ/ˈhæŋɪŋ/ˈhəʊldɪŋ/ˈpʊʃɪŋ/ˈsɪtɪŋ/",
-    "pos": "",
+    "pos": "(v)",
     "meaning": "sử dụng / viết / treo / cầm / đẩy (xe đẩy) / ngồi",
     "notes": ""
   },
   {
     "word": "put (data) / give to / get / receive from",
     "ipa": "/pʊt/ɡɪv tuː/ɡet/rɪˈsiːv frɒm/",
-    "pos": "",
+    "pos": "(v)",
     "meaning": "đặt (dữ liệu) / đưa cho / nhận / nhận từ",
     "notes": ""
   },
@@ -373,92 +373,484 @@
   {
     "word": "The man / woman who is on the right",
     "ipa": "/ðə mæn/ˈwʊmən huː ɪz ɒn ðə raɪt/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "Người đàn ông / phụ nữ ở bên phải",
     "notes": ""
   },
   {
     "word": "outside",
     "ipa": "/ˌaʊtˈsaɪd/",
-    "pos": "",
+    "pos": "(adv)",
     "meaning": "bên ngoài",
     "notes": ""
   },
   {
     "word": "giving",
     "ipa": "/ˈɡɪvɪŋ/",
-    "pos": "",
+    "pos": "(v)",
     "meaning": "đang cho / tặng",
     "notes": ""
   },
   {
     "word": "practice",
     "ipa": "/ˈpræktɪs/",
-    "pos": "",
+    "pos": "(v/n)",
     "meaning": "luyện tập",
     "notes": ""
   },
   {
     "word": "lobby",
     "ipa": "/ˈlɒbi/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "sảnh",
     "notes": ""
   },
   {
     "word": "convention",
     "ipa": "/kənˈvenʃn/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "hội nghị",
     "notes": ""
   },
   {
     "word": "on top of",
     "ipa": "/ɒn tɒp əv/",
-    "pos": "",
+    "pos": "(prep)",
     "meaning": "trên đỉnh của / ở trên",
     "notes": ""
   },
   {
     "word": "plate",
     "ipa": "/pleɪt/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "đĩa",
     "notes": ""
   },
   {
     "word": "payment",
     "ipa": "/ˈpeɪmənt/",
-    "pos": "",
+    "pos": "(n)",
     "meaning": "sự thanh toán",
     "notes": ""
   },
   {
     "word": "complete",
     "ipa": "/kəmˈpliːt/",
-    "pos": "",
+    "pos": "(v)",
     "meaning": "hoàn thành",
     "notes": ""
   },
   {
     "word": "wait until + S + V",
     "ipa": "/weɪt ənˈtɪl/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "chờ đến khi điều gì xảy ra",
     "notes": ""
   },
   {
     "word": "wait for + someone + to do sth",
     "ipa": "/weɪt fɔː/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "chờ ai đó làm gì",
     "notes": ""
   },
   {
     "word": "wait for + V-ing / N",
     "ipa": "/weɪt fɔː/",
-    "pos": "",
+    "pos": "(phr)",
     "meaning": "chờ 1 hoạt động/điều gì đó",
+    "notes": ""
+  },
+  {
+    "word": "application deadline",
+    "ipa": "/ˌæplɪˈkeɪʃn ˈdedlaɪn/",
+    "pos": "(n)",
+    "meaning": "hạn chót nộp đơn",
+    "notes": ""
+  },
+  {
+    "word": "Vietnamese Communication skills",
+    "ipa": "/ˌvjetnəˈmiːz kəˌmjuːnɪˈkeɪʃn skɪlz/",
+    "pos": "(n)",
+    "meaning": "kỹ năng giao tiếp tiếng Việt",
+    "notes": ""
+  },
+  {
+    "word": "Vietnamese language course",
+    "ipa": "/ˌvjetnəˈmiːz ˈlæŋɡwɪdʒ kɔːs/",
+    "pos": "(n)",
+    "meaning": "khóa học tiếng Việt",
+    "notes": ""
+  },
+  {
+    "word": "Customer Service Department/Manager",
+    "ipa": "/ˈkʌstəmə ˈsɜːvɪs dɪˈpɑːtmənt/ˈmænɪdʒə/",
+    "pos": "(n)",
+    "meaning": "phòng CSKH / quản lý",
+    "notes": ""
+  },
+  {
+    "word": "IT Support",
+    "ipa": "/ˌaɪ ˈtiː səˈpɔːt/",
+    "pos": "(n)",
+    "meaning": "hỗ trợ CNTT",
+    "notes": ""
+  },
+  {
+    "word": "Finance officer",
+    "ipa": "/faɪˈnæns ˈɒfɪsə/",
+    "pos": "(n)",
+    "meaning": "nhân viên tài chính",
+    "notes": ""
+  },
+  {
+    "word": "Human Resources Assistant",
+    "ipa": "/ˈhjuːmən rɪˈsɔːsɪz əˈsɪstənt/",
+    "pos": "(n)",
+    "meaning": "trợ lý nhân sự",
+    "notes": ""
+  },
+  {
+    "word": "T-shirt",
+    "ipa": "/ˈtiː ʃɜːt/",
+    "pos": "(n)",
+    "meaning": "áo thun",
+    "notes": ""
+  },
+  {
+    "word": "short pants",
+    "ipa": "/ʃɔːt pænts/",
+    "pos": "(n)",
+    "meaning": "quần ngắn",
+    "notes": ""
+  },
+  {
+    "word": "leggings",
+    "ipa": "/ˈleɡɪŋz/",
+    "pos": "(n)",
+    "meaning": "quần bó",
+    "notes": ""
+  },
+  {
+    "word": "shorts",
+    "ipa": "/ʃɔːts/",
+    "pos": "(n)",
+    "meaning": "quần short",
+    "notes": ""
+  },
+  {
+    "word": "jacket",
+    "ipa": "/ˈdʒækɪt/",
+    "pos": "(n)",
+    "meaning": "áo khoác ngắn",
+    "notes": ""
+  },
+  {
+    "word": "coat",
+    "ipa": "/kəʊt/",
+    "pos": "(n)",
+    "meaning": "áo khoác dài",
+    "notes": ""
+  },
+  {
+    "word": "hoodie",
+    "ipa": "/ˈhʊdi/",
+    "pos": "(n)",
+    "meaning": "áo hoodie",
+    "notes": ""
+  },
+  {
+    "word": "raincoat",
+    "ipa": "/ˈreɪnkəʊt/",
+    "pos": "(n)",
+    "meaning": "áo mưa",
+    "notes": ""
+  },
+  {
+    "word": "blazer / cardigan",
+    "ipa": "/ˈbleɪzə/ˈkɑːdɪɡən/",
+    "pos": "(n)",
+    "meaning": "áo blazer / áo cardigan",
+    "notes": ""
+  },
+  {
+    "word": "trench coat",
+    "ipa": "/trentʃ kəʊt/",
+    "pos": "(n)",
+    "meaning": "áo măng tô",
+    "notes": ""
+  },
+  {
+    "word": "sweater",
+    "ipa": "/ˈswetə/",
+    "pos": "(n)",
+    "meaning": "áo len",
+    "notes": ""
+  },
+  {
+    "word": "shirt",
+    "ipa": "/ʃɜːt/",
+    "pos": "(n)",
+    "meaning": "áo sơ mi",
+    "notes": ""
+  },
+  {
+    "word": "polo shirt",
+    "ipa": "/ˈpəʊləʊ ʃɜːt/",
+    "pos": "(n)",
+    "meaning": "áo thun có cổ",
+    "notes": ""
+  },
+  {
+    "word": "tank top",
+    "ipa": "/tæŋk tɒp/",
+    "pos": "(n)",
+    "meaning": "áo ba lỗ",
+    "notes": ""
+  },
+  {
+    "word": "vest",
+    "ipa": "/vest/",
+    "pos": "(n)",
+    "meaning": "áo ghi lê",
+    "notes": ""
+  },
+  {
+    "word": "uniform",
+    "ipa": "/ˈjuːnɪfɔːm/",
+    "pos": "(n)",
+    "meaning": "đồng phục",
+    "notes": ""
+  },
+  {
+    "word": "dress",
+    "ipa": "/dres/",
+    "pos": "(n)",
+    "meaning": "váy liền",
+    "notes": ""
+  },
+  {
+    "word": "skirt",
+    "ipa": "/skɜːt/",
+    "pos": "(n)",
+    "meaning": "chân váy",
+    "notes": ""
+  },
+  {
+    "word": "shoes",
+    "ipa": "/ʃuːz/",
+    "pos": "(n)",
+    "meaning": "giày",
+    "notes": ""
+  },
+  {
+    "word": "sneakers",
+    "ipa": "/ˈsniːkəz/",
+    "pos": "(n)",
+    "meaning": "giày thể thao",
+    "notes": ""
+  },
+  {
+    "word": "hat",
+    "ipa": "/hæt/",
+    "pos": "(n)",
+    "meaning": "mũ",
+    "notes": ""
+  },
+  {
+    "word": "cap",
+    "ipa": "/kæp/",
+    "pos": "(n)",
+    "meaning": "mũ lưỡi trai",
+    "notes": ""
+  },
+  {
+    "word": "scarf",
+    "ipa": "/skɑːf/",
+    "pos": "(n)",
+    "meaning": "khăn choàng",
+    "notes": ""
+  },
+  {
+    "word": "sandals",
+    "ipa": "/ˈsændlz/",
+    "pos": "(n)",
+    "meaning": "dép quai hậu",
+    "notes": ""
+  },
+  {
+    "word": "boots",
+    "ipa": "/buːts/",
+    "pos": "(n)",
+    "meaning": "ủng",
+    "notes": ""
+  },
+  {
+    "word": "jewelry",
+    "ipa": "/ˈdʒuːəlri/",
+    "pos": "(n)",
+    "meaning": "trang sức",
+    "notes": ""
+  },
+  {
+    "word": "actor",
+    "ipa": "/ˈæktə/",
+    "pos": "(n)",
+    "meaning": "diễn viên",
+    "notes": ""
+  },
+  {
+    "word": "musician",
+    "ipa": "/mjuːˈzɪʃn/",
+    "pos": "(n)",
+    "meaning": "nhạc sĩ",
+    "notes": ""
+  },
+  {
+    "word": "cooperation",
+    "ipa": "/kəʊˌɒpəˈreɪʃn/",
+    "pos": "(n)",
+    "meaning": "hợp tác",
+    "notes": ""
+  },
+  {
+    "word": "corporation",
+    "ipa": "/ˌkɔːpəˈreɪʃn/",
+    "pos": "(n)",
+    "meaning": "tập đoàn",
+    "notes": ""
+  },
+  {
+    "word": "at all times",
+    "ipa": "/æt ɔːl taɪmz/",
+    "pos": "(phr)",
+    "meaning": "mọi lúc",
+    "notes": ""
+  },
+  {
+    "word": "tablet",
+    "ipa": "/ˈtæblət/",
+    "pos": "(n)",
+    "meaning": "máy tính bảng",
+    "notes": ""
+  },
+  {
+    "word": "trash can",
+    "ipa": "/træʃ kæn/",
+    "pos": "(n)",
+    "meaning": "thùng rác",
+    "notes": ""
+  },
+  {
+    "word": "garbage can",
+    "ipa": "/ˈɡɑːbɪdʒ kæn/",
+    "pos": "(n)",
+    "meaning": "thùng rác",
+    "notes": ""
+  },
+  {
+    "word": "crosswalk",
+    "ipa": "/ˈkrɒswɔːk/",
+    "pos": "(n)",
+    "meaning": "vạch qua đường",
+    "notes": ""
+  },
+  {
+    "word": "conversation",
+    "ipa": "/ˌkɒnvəˈseɪʃn/",
+    "pos": "(n)",
+    "meaning": "cuộc trò chuyện",
+    "notes": ""
+  },
+  {
+    "word": "banquet",
+    "ipa": "/ˈbæŋkwɪt/",
+    "pos": "(n)",
+    "meaning": "bữa tiệc",
+    "notes": ""
+  },
+  {
+    "word": "catering",
+    "ipa": "/ˈkeɪtərɪŋ/",
+    "pos": "(n)",
+    "meaning": "dịch vụ cung cấp thức ăn",
+    "notes": ""
+  },
+  {
+    "word": "happy",
+    "ipa": "/ˈhæpi/",
+    "pos": "(adj)",
+    "meaning": "vui",
+    "notes": ""
+  },
+  {
+    "word": "happier",
+    "ipa": "/ˈhæpiər/",
+    "pos": "(adj)",
+    "meaning": "vui hơn",
+    "notes": ""
+  },
+  {
+    "word": "meal",
+    "ipa": "/miːl/",
+    "pos": "(n)",
+    "meaning": "bữa ăn",
+    "notes": ""
+  },
+  {
+    "word": "meat",
+    "ipa": "/miːt/",
+    "pos": "(n)",
+    "meaning": "thịt",
+    "notes": ""
+  },
+  {
+    "word": "reduce",
+    "ipa": "/rɪˈdjuːs/",
+    "pos": "(v)",
+    "meaning": "giảm",
+    "notes": ""
+  },
+  {
+    "word": "financial",
+    "ipa": "/faɪˈnænʃl/",
+    "pos": "(adj)",
+    "meaning": "tài chính",
+    "notes": ""
+  },
+  {
+    "word": "stress",
+    "ipa": "/stres/",
+    "pos": "(n/v)",
+    "meaning": "căng thẳng",
+    "notes": ""
+  },
+  {
+    "word": "cleaning the floor",
+    "ipa": "/ˈkliːnɪŋ ðə flɔː/",
+    "pos": "(phr)",
+    "meaning": "đang lau sàn",
+    "notes": ""
+  },
+  {
+    "word": "cleaning on the floor",
+    "ipa": "/ˈkliːnɪŋ ɒn ðə flɔː/",
+    "pos": "(phr)",
+    "meaning": "đang lau cái gì trên sàn",
+    "notes": ""
+  },
+  {
+    "word": "promote",
+    "ipa": "/prəˈməʊt/",
+    "pos": "(v)",
+    "meaning": "quảng bá / thăng tiến",
+    "notes": ""
+  },
+  {
+    "word": "advertise",
+    "ipa": "/ˈædvətaɪz/",
+    "pos": "(v)",
+    "meaning": "quảng cáo",
     "notes": ""
   }
 ]
