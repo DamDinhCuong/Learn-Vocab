@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Flashcards - Học từ vựng</title>
+    <style>
+      :root {
+        --bg: #f6f7fb;
+        --card: #fff;
+        --accent: #ff4d4f;
+        --meaning: #2b8a3e;
+        --muted: #6b6b6b;
+      }
+      body {
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        background: var(--bg);
+        margin: 0;
+        padding: 32px;
+        display: flex;
+        gap: 24px;
+        height: 100vh;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        width: 100%;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0;
+      }
+      .controls {
+        display: flex;
+        gap: 8px;
+      }
+      button {
+        background: #111827;
+        color: #fff;
+        border: 0;
+        padding: 8px 12px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .card {
+        background: var(--card);
+        border-radius: 16px;
+        padding: 28px;
+        box-shadow: 0 6px 20px rgba(16, 24, 40, 0.06);
+        text-align: center;
+        margin-top: 20px;
+      }
+      .word {
+        font-size: 38px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 6px;
+      }
+      .ipa {
+        color: var(--muted);
+        margin-bottom: 6px;
+      }
+      .pos {
+        display: inline-block;
+        background: linear-gradient(90deg, #fff0, #fff0);
+        color: var(--accent);
+        font-weight: 700;
+        padding: 4px 8px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+      }
+      .meaning {
+        color: var(--meaning);
+        font-size: 18px;
+        margin: 12px 0;
+      }
+      .notes {
+        color: #b76e00;
+        font-size: 14px;
+        margin-top: 8px;
+      }
+
+      .actions {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        margin-top: 16px;
+      }
+      .small {
+        padding: 6px 10px;
+        font-size: 14px;
+      }
+
+      .side {
+        width: 320px;
+      }
+      textarea {
+        width: 100%;
+        height: 160px;
+        border-radius: 8px;
+        padding: 8px;
+        border: 1px dashed #e5e7eb;
+        resize: vertical;
+      }
+      label {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .import-help {
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+      .footer {
+        font-size: 12px;
+        color: var(--muted);
+        margin-top: 12px;
+      }
+
+      @media (max-width: 900px) {
+        body {
+          padding: 16px;
+        }
+        .side {
+          display: none;
+        }
+      }
+      .enter_mean input {
+        width: 50%;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #e5e7eb;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Flashcards — Học từ vựng</h1>
+        <div class="controls">
+          <button id="shuffleBtn">Trộn</button>
+          <button id="resetBtn">Reset</button>
+          <button id="changeBtn">Đổi</button>
+        </div>
+      </header>
+
+      <div class="card" id="flashcard">
+        <div class="pos" id="pos">(n)</div>
+        <div class="word" id="word">a bottle of water</div>
+        <div class="ipa" id="ipa">/ə ˈbɒtl ɒv ˈwɔːtər/</div>
+        <div class="enter_mean">
+            <input type="text" id="input"autocomplete="off" 
+                autocorrect="off"
+                autocapitalize="off"
+                spellcheck="false"
+            >
+        </div>
+        <div class="meaning" id="meaning">chai nước</div>
+        <div class="notes" id="notes">Ghi chú: dùng để chỉ 1 chai nước.</div>
+        <div class="actions">
+          <button class="small" id="prevBtn">Trở về</button>
+          <button class="small" id="showBtn">Hiện nghĩa</button>
+          <button class="small" id="nextBtn">Tiếp theo</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        Mẹo: bấm <strong>Hiện nghĩa</strong> để kiểm tra rồi
+        <strong>Tiếp theo</strong> để ôn tiếp. Dùng <strong>Trộn</strong> để học
+        ngẫu nhiên.
+      </div>
+    </div>
+
+    <aside class="side">
+      <div class="panel" style="height: 100%; overflow: auto;">
+        <label>Danh sách hiện tại</label>
+        <div
+          id="list"
+          style="padding-top: 8px"
+        ></div>
+      </div>
+    </aside>
+
+<script>
+    let vocab = [];
+    let isChange = 'en';
+    fetch('vocab.json')
+    .then(response => response.json())
+    .then(data => {
+        vocab = data;
+        // initial render
+        render(0);
+    }).catch(error => console.error('Error loading vocab:', error));
+    let index = 0;
+    let shuffled = false;
+    let order = [...Array(vocab.length).keys()];
+    let isShow = false;
+    const el = (id) => document.getElementById(id);
+    const wordEl = el("word"),
+    ipaEl = el("ipa"),
+    posEl = el("pos"),
+    meaningEl = el("meaning"),
+    notesEl = el("notes");
+    inputEL = el("input");
+
+    function render(i) {
+        if (vocab.length === 0) {
+            wordEl.textContent = "(chưa có từ nào)";
+            ipaEl.textContent = "";
+            posEl.textContent = "";
+            meaningEl.style.display = "none";
+            notesEl.style.display = "none";
+            meaningEl.textContent = "";
+            notesEl.textContent = "";
+            inputEL.value = "";
+            return;
+        }
+        const card = vocab[i];
+        wordEl.textContent = card.word;
+        ipaEl.textContent = card.ipa || "";
+        posEl.textContent = card.pos || "";
+        meaningEl.textContent = card.meaning || "";
+        if (isChange == 'vi') { // Chế độ tiếng Việt
+            wordEl.style.display = "none";
+            ipaEl.style.display = "none";
+            posEl.style.display = "none";
+            notesEl.style.display = "block";
+            meaningEl.style.display = "block";
+            inputEL.value = "";
+        } else { // Chế độ tiếng Anh
+            wordEl.style.display = "block";
+            ipaEl.style.display = "block";
+            posEl.style.display = "block";
+            notesEl.style.display = "none";
+            meaningEl.style.display = "none";
+            inputEL.value = "";
+        }
+        updateListUI();
+    }
+
+    function next() {
+        if (vocab.length === 0) return;
+        index = (index + 1) % vocab.length;
+        isShow = false;
+        render(index);
+    }
+
+    function prev() {
+        if (vocab.length === 0) return;
+        index = (index - 1 + vocab.length) % vocab.length;
+        isShow = false;
+        render(index);
+    }
+
+    function showMeaning(val) {
+        if(isChange == 'en') {
+            if(val) {
+                meaningEl.style.display = "block";
+                notesEl.style.display = "block";
+            } else {
+                meaningEl.style.display = "none";
+                notesEl.style.display = "none";
+            }
+        } else {
+            if(val) {
+                wordEl.style.display = "block";
+                ipaEl.style.display = "block";
+                posEl.style.display = "block";
+            }else {
+                wordEl.style.display = "none";
+                ipaEl.style.display = "none";
+                posEl.style.display = "none";
+            }
+        }
+    }
+
+        function shuffle() {
+        for (let i = vocab.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [vocab[i], vocab[j]] = [vocab[j], vocab[i]];
+        }
+        index = 0;
+        render(0);
+    }
+
+    function reset() {
+    // reload page to reset to original data (simple)
+    location.reload();
+    }
+
+    // import parser: read lines that start with '- '
+    function parseAndImport(text) {
+        const lines = text
+            .split(/\r?\n/)
+            .map((l) => l.trim())
+            .filter((l) => l.length > 0);
+        const parsed = [];
+        for (const raw of lines) {
+            if (!raw.startsWith("-")) continue;
+            // remove leading '-'
+            let s = raw.replace(/^[-]\s*/, "");
+            // expected formats:
+            // word (pos): meaning - notes
+            // word: meaning
+            // Try to capture word, pos, meaning, notes
+            let word = "";
+            let pos = "";
+            let meaning = "";
+            let notes = "";
+            let ipa = "";
+
+            // split off notes by ' - ' or ' — '
+            let parts = s.split(/\s[-–—]\s/);
+            if (parts.length > 1) {
+            notes = parts.slice(1).join(" - ");
+            s = parts[0];
+            }
+
+            // split by ':' to get meaning
+            let colon = s.indexOf(":");
+            if (colon !== -1) {
+            let left = s.slice(0, colon).trim();
+            meaning = s.slice(colon + 1).trim();
+            // try to extract pos in parentheses from left
+            let m = left.match(/^(.*)\s*\(([^)]+)\)\s*$/);
+            if (m) {
+                word = m[1].trim();
+                pos = "(" + m[2].trim() + ")";
+            } else {
+                word = left;
+            }
+            } else {
+            // no colon, maybe format 'word (pos)'
+            let m = s.match(/^(.*)\s*\(([^)]+)\)\s*$/);
+            if (m) {
+                word = m[1].trim();
+                pos = "(" + m[2].trim() + ")";
+            } else word = s;
+            }
+
+            // basic cleanup common OCR errors
+            word = word.replace(/\\/g, "").replace(/\s+/g, " ").trim();
+            meaning = meaning.replace(/\\/g, "").trim();
+            notes = notes.replace(/\\/g, "").trim();
+
+            parsed.push({ word, ipa, pos, meaning, notes });
+        }
+        if (parsed.length > 0) {
+            // append to vocab
+            for (const p of parsed) vocab.push(p);
+            index = 0;
+            render(0);
+            alert(
+            "Nhập xong: " +
+                parsed.length +
+                " mục. Bạn có thể sửa trực tiếp trong mã nguồn hoặc dùng ô paste tiếp để thêm."
+            );
+        } else
+        alert(
+        'Không tìm thấy dòng bắt đầu bằng - . Hãy đảm bảo mỗi từ bắt đầu bằng "- '.trim() +
+            '"'
+        );
+    }
+
+    function updateListUI() {
+        const list = el("list");
+        list.innerHTML = "";
+        vocab.forEach((v, i) => {
+            const d = document.createElement("div");
+            d.style.padding = "6px 4px";
+            d.style.borderBottom = "1px solid #f1f3f5";
+            d.style.cursor = "pointer";
+            d.style.transition = "background 0.2s";
+            d.addEventListener("mouseover", () => {
+            d.style.background = "#f8f9fa";
+            });
+            d.addEventListener("mouseout", () => {
+            d.style.background = "transparent"; 
+            });
+            d.innerHTML = `<strong>${i + 1}. ${escapeHtml(
+            v.word
+            )}</strong> <span style=\"color:var(--muted)\">${escapeHtml(
+            v.pos || ""
+            )}</span><div style=\"font-size:13px;color:var(--meaning)\">${escapeHtml(
+            v.meaning || ""
+            )}</div>`;
+            d.addEventListener("click", () => {
+            index = i;
+            render(i);
+            });
+            list.appendChild(d);
+        });
+    }
+
+    function escapeHtml(s) {
+        return String(s)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;");
+        }
+
+    // export as JSON file
+    function exportJSON() {
+        const data = JSON.stringify(vocab, null, 2);
+        const blob = new Blob([data], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "vocab.json";
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+    // events
+    el("nextBtn").addEventListener("click", () => {
+        next();
+    });
+    el("prevBtn").addEventListener("click", () => {
+        prev();
+    });
+    el("showBtn").addEventListener("click", () => {
+        showMeaning(isShow = !isShow);
+    });
+    el("shuffleBtn").addEventListener("click", () => {
+        shuffle();
+    });
+    el("resetBtn").addEventListener("click", () => {
+        reset();
+    });
+    el("changeBtn").addEventListener("click", () => {
+        isChange = isChange == 'vi' ?'en':'vi';
+        render(0);
+    });
+    // keyboard shortcuts
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            showMeaning(isShow = !isShow);
+        }
+        if (e.key === "ArrowRight") next();
+        if (e.key === "ArrowLeft") prev();
+    });
+</script>
+  </body>
+</html>
