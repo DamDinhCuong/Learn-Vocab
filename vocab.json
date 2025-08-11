@@ -8,7 +8,7 @@
   },
   {
     "word": "a bottle of water",
-    "ipa": "/ə ˈbɒtl əv ˈwɔːtər/", 
+    "ipa": "/ə ˈbɒtl əv ˈwɔːtər/",
     "pos": "(n)",
     "meaning": "chai nước",
     "notes": ""
@@ -228,13 +228,6 @@
     "ipa": "/pleɪn/",
     "pos": "(n)",
     "meaning": "máy bay",
-    "notes": ""
-  },
-  {
-    "word": "dessert",
-    "ipa": "/dɪˈzɜːt/",
-    "pos": "(n)",
-    "meaning": "món tráng miệng",
     "notes": ""
   },
   {
@@ -851,6 +844,461 @@
     "ipa": "/ˈædvətaɪz/",
     "pos": "(v)",
     "meaning": "quảng cáo",
+    "notes": ""
+  },
+  {
+    "word": "get on / get off",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "bước lên / bước xuống (xe, tàu, plane)",
+    "notes": ""
+  },
+  {
+    "word": "buy",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "mua",
+    "notes": "purchase; shop; buy sth"
+  },
+  {
+    "word": "purchase",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "mua hàng",
+    "notes": "make purchase: mua hàng (nói chung, lớn); make a purchase: giao dịch mua"
+  },
+  {
+    "word": "jar",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "hũ",
+    "notes": "a salt jar / a sugar jar"
+  },
+  {
+    "word": "stove",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "bếp",
+    "notes": ""
+  },
+  {
+    "word": "common",
+    "ipa": "",
+    "pos": "(adj)",
+    "meaning": "phổ biến",
+    "notes": ""
+  },
+  {
+    "word": "delivery",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "việc giao hàng",
+    "notes": "delayed delivery: giao hàng trễ"
+  },
+  {
+    "word": "take steps",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "thực hiện các bước",
+    "notes": ""
+  },
+  {
+    "word": "reasonable",
+    "ipa": "",
+    "pos": "(adj)",
+    "meaning": "hợp lý",
+    "notes": "the prices are reasonable"
+  },
+  {
+    "word": "wide",
+    "ipa": "",
+    "pos": "(adj)",
+    "meaning": "đa dạng, rộng (về loại hình)",
+    "notes": ""
+  },
+  {
+    "word": "variety",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "đa dạng, nhiều loại",
+    "notes": "a wide variety of"
+  },
+  {
+    "word": "sign",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "bảng hiệu",
+    "notes": "shop sign; road sign"
+  },
+  {
+    "word": "banner",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "băng rôn",
+    "notes": "quảng cáo"
+  },
+  {
+    "word": "poster",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "tờ áp phích, poster",
+    "notes": "treo tường"
+  },
+  {
+    "word": "make friends",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "kết bạn",
+    "notes": ""
+  },
+  {
+    "word": "expand friendships",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "mở rộng mối quan hệ bạn bè",
+    "notes": ""
+  },
+  {
+    "word": "friendship",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "mối quan hệ bạn bè",
+    "notes": "build a close relationship with..."
+  },
+  {
+    "word": "relationship",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "mối quan hệ (người hoặc vật)",
+    "notes": ""
+  },
+  {
+    "word": "have",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "có",
+    "notes": ""
+  },
+  {
+    "word": "ability to remember",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "khả năng ghi nhớ",
+    "notes": "memory"
+  },
+  {
+    "word": "gain (more) knowledge",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "tiếp thu thêm kiến thức",
+    "notes": ""
+  },
+  {
+    "word": "known as",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "được biết đến",
+    "notes": ""
+  },
+  {
+    "word": "hormones",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "hormone",
+    "notes": "endorphins"
+  },
+  {
+    "word": "make children feel happier and relaxed",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "làm trẻ em cảm thấy vui vẻ và thư giãn hơn",
+    "notes": "\"happy hormones\""
+  },
+  {
+    "word": "physical activities",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "hoạt động thể chất",
+    "notes": ""
+  },
+  {
+    "word": "physical health",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "sức khỏe thể chất",
+    "notes": "overall health"
+  },
+  {
+    "word": "physical exercise",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "tập thể dục",
+    "notes": ""
+  },
+  {
+    "word": "organ",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "cơ quan",
+    "notes": ""
+  },
+  {
+    "word": "organ function",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "chức năng cơ quan",
+    "notes": "the function of the heart"
+  },
+  {
+    "word": "package",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "bao bì, gói hàng",
+    "notes": ""
+  },
+  {
+    "word": "change",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "thay đổi",
+    "notes": ""
+  },
+  {
+    "word": "recipe",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "công thức",
+    "notes": ""
+  },
+  {
+    "word": "entire career",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "toàn bộ sự nghiệp",
+    "notes": "khác với retire (nghỉ hưu)"
+  },
+  {
+    "word": "bored",
+    "ipa": "",
+    "pos": "(adj)",
+    "meaning": "chán",
+    "notes": "be bored; make me feel bored"
+  },
+  {
+    "word": "boring",
+    "ipa": "",
+    "pos": "(adj)",
+    "meaning": "nhàm chán",
+    "notes": "be boring; can feel boring"
+  },
+  {
+    "word": "change to do sth",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "thay đổi để làm gì đó",
+    "notes": ""
+  },
+  {
+    "word": "one another",
+    "ipa": "",
+    "pos": "(pron)",
+    "meaning": "lẫn nhau (3 người trở lên)",
+    "notes": ""
+  },
+  {
+    "word": "each other",
+    "ipa": "",
+    "pos": "(pron)",
+    "meaning": "lẫn nhau (2 người hoặc 2 vật)",
+    "notes": "trust each other"
+  },
+  {
+    "word": "strengths",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "điểm mạnh",
+    "notes": ""
+  },
+  {
+    "word": "weaknesses",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "điểm yếu",
+    "notes": ""
+  },
+  {
+    "word": "different",
+    "ipa": "",
+    "pos": "(adj)",
+    "meaning": "khác biệt",
+    "notes": ""
+  },
+  {
+    "word": "difficult",
+    "ipa": "",
+    "pos": "(adj)",
+    "meaning": "khó khăn",
+    "notes": "difficulties/difficulty"
+  },
+  {
+    "word": "brain",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "bộ não",
+    "notes": ""
+  },
+  {
+    "word": "search for",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "tìm kiếm",
+    "notes": "look for, seek"
+  },
+  {
+    "word": "repeat",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "lặp lại",
+    "notes": "repetitive"
+  },
+  {
+    "word": "familiar with",
+    "ipa": "",
+    "pos": "(adj)",
+    "meaning": "quen với",
+    "notes": ""
+  },
+  {
+    "word": "processes",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "quy trình",
+    "notes": ""
+  },
+  {
+    "word": "experience",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "kinh nghiệm",
+    "notes": "promote: thăng tiến"
+  },
+  {
+    "word": "database",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "cơ sở dữ liệu",
+    "notes": "CSDL"
+  },
+  {
+    "word": "resume",
+    "ipa": "/ˈrezəmeɪ/",
+    "pos": "(n)",
+    "meaning": "sơ yếu lý lịch",
+    "notes": "CV"
+  },
+  {
+    "word": "guest",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "khách mời",
+    "notes": ""
+  },
+  {
+    "word": "projector",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "máy chiếu",
+    "notes": ""
+  },
+  {
+    "word": "on the wall",
+    "ipa": "",
+    "pos": "(phr)",
+    "meaning": "trên tường",
+    "notes": ""
+  },
+  {
+    "word": "present",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "trình bày",
+    "notes": "give a presentation"
+  },
+  {
+    "word": "give a presentation",
+    "ipa": "",
+    "pos": "(phr)",
+    "meaning": "thuyết trình, trình bày",
+    "notes": "give a presentation on/about + chủ đề"
+  },
+  {
+    "word": "listen / watch",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "nghe / xem",
+    "notes": ""
+  },
+  {
+    "word": "chip",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "khoai tây chiên lát mỏng",
+    "notes": ""
+  },
+  {
+    "word": "walk alone",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "đi một mình",
+    "notes": ""
+  },
+  {
+    "word": "ride a/the bicycle",
+    "ipa": "",
+    "pos": "(v)",
+    "meaning": "đi xe đạp",
+    "notes": ""
+  },
+  {
+    "word": "in front of",
+    "ipa": "",
+    "pos": "(prep)",
+    "meaning": "ở phía trước",
+    "notes": "the bus / the restaurant"
+  },
+  {
+    "word": "since",
+    "ipa": "",
+    "pos": "(prep)",
+    "meaning": "từ khi",
+    "notes": ""
+  },
+  {
+    "word": "luggage",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "hành lý",
+    "notes": "baggage"
+  },
+  {
+    "word": "backpack",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "ba lô",
+    "notes": ""
+  },
+  {
+    "word": "bag",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "túi xách",
+    "notes": "handbag"
+  },
+  {
+    "word": "suitcase",
+    "ipa": "",
+    "pos": "(n)",
+    "meaning": "va li",
     "notes": ""
   }
 ]
