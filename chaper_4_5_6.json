@@ -1,0 +1,212 @@
+[
+    {
+        "word": "address",
+        "pos": "(v)",
+        "meaning": "chú tâm",
+        "notes": "to direct to the attention of"
+    },
+    {
+        "word": "avoid",
+        "pos": "(v)",
+        "meaning": "tránh, ngăn ngừa",
+        "notes": "to stay clear of, to keep from happening"
+    },
+    {
+        "word": "demonstrate",
+        "pos": "(v)",
+        "meaning": "chứng minh",
+        "notes": "to show clearly and deliberately"
+    },
+    {
+        "word": "develop",
+        "pos": "(v)",
+        "meaning": "phát triển",
+        "notes": "to expand, progress, or improve"
+    },
+    {
+        "word": "evaluate",
+        "pos": "(v)",
+        "meaning": "đánh giá",
+        "notes": "to determine the value or impact of"
+    },
+    {
+        "word": "gather",
+        "pos": "(v)",
+        "meaning": "tập hợp, tập trung",
+        "notes": "to accumulate, to conclude"
+    },
+    {
+        "word": "offer",
+        "pos": "(v)",
+        "meaning": "đề xuất",
+        "notes": "to propose"
+    },
+    {
+        "word": "primary",
+        "pos": "(adj)",
+        "meaning": "hàng đầu, chính",
+        "notes": "most important, first in a list"
+    },
+    {
+        "word": "risk",
+        "pos": "(n)",
+        "meaning": "rủi ro",
+        "notes": "the chance of loss or damage"
+    },
+    {
+        "word": "strategy",
+        "pos": "(n)",
+        "meaning": "chiến lược",
+        "notes": "a plan of action"
+    },
+    {
+        "word": "strong",
+        "pos": "(adj)",
+        "meaning": "quyền lực, mạnh mẽ",
+        "notes": "powerful"
+    },
+    {
+        "word": "substitute",
+        "pos": "(v)",
+        "meaning": "thay thế",
+        "notes": "to take the place of another"
+    },
+    {
+        "word": "accommodate",
+        "pos": "(v)",
+        "meaning": "cung cấp, chứa",
+        "notes": "to fit, to provide with something needed"
+    },
+    {
+        "word": "arrangement",
+        "pos": "(n)",
+        "meaning": "sự tổ chức, sắp xếp",
+        "notes": "the plan or organization"
+    },
+    {
+        "word": "association",
+        "pos": "(n)",
+        "meaning": "sự liên kết, kết hợp",
+        "notes": ""
+    },
+    {
+        "word": "attend",
+        "pos": "(v)",
+        "meaning": "chú tâm",
+        "notes": "to pay attention to"
+    },
+    {
+        "word": "get in touch",
+        "pos": "(v)",
+        "meaning": "liên lạc",
+        "notes": "to make contact with"
+    },
+    {
+        "word": "hold",
+        "pos": "(v)",
+        "meaning": "dàn xếp, tổ chức",
+        "notes": "to accommodate"
+    },
+    {
+        "word": "location",
+        "pos": "(n)",
+        "meaning": "địa điểm",
+        "notes": "a position or site"
+    },
+    {
+        "word": "overcrowded",
+        "pos": "(adj)",
+        "meaning": "chật chội, đông nghịt",
+        "notes": "too crowded"
+    },
+    {
+        "word": "register",
+        "pos": "(v)",
+        "meaning": "ghi lại",
+        "notes": "to record"
+    },
+    {
+        "word": "select",
+        "pos": "(v)",
+        "meaning": "lựa chọn",
+        "notes": "to choose from a group"
+    },
+    {
+        "word": "session",
+        "pos": "(n)",
+        "meaning": "buổi họp, phiên họp",
+        "notes": "a meeting"
+    },
+    {
+        "word": "take part in",
+        "pos": "(v)",
+        "meaning": "tham dự",
+        "notes": "to join or participate"
+    },
+    {
+        "word": "access",
+        "pos": "(v)",
+        "meaning": "truy cập",
+        "notes": "to obtain, to gain entry"
+    },
+    {
+        "word": "allocate",
+        "pos": "(v)",
+        "meaning": "chỉ định",
+        "notes": "to designate for a specific purpose"
+    },
+    {
+        "word": "compatible",
+        "pos": "(adj)",
+        "meaning": "tương hợp, tương thích",
+        "notes": "able to function together"
+    },
+    {
+        "word": "delete",
+        "pos": "(v)",
+        "meaning": "xóa",
+        "notes": "to remove, to erase"
+    },
+    {
+        "word": "display",
+        "pos": "(n)",
+        "meaning": "hiển thị",
+        "notes": "to show"
+    },
+    {
+        "word": "duplicate",
+        "pos": "(v)",
+        "meaning": "tạo bản sao",
+        "notes": "to produce something equal"
+    },
+    {
+        "word": "fail",
+        "pos": "(v)",
+        "meaning": "thất bại",
+        "notes": "not to succeed"
+    },
+    {
+        "word": "figure out",
+        "pos": "(v)",
+        "meaning": "tìm ra, giải quyết",
+        "notes": "to understand, to solve"
+    },
+    {
+        "word": "ignore",
+        "pos": "(v)",
+        "meaning": "lờ đi, không để ý",
+        "notes": "not to notice"
+    },
+    {
+        "word": "search",
+        "pos": "(v)",
+        "meaning": "tìm kiếm",
+        "notes": "to look for"
+    },
+    {
+        "word": "shut down",
+        "pos": "(v)",
+        "meaning": "tắt",
+        "notes": "to turn off"
+    }
+]
