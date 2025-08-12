@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vocabulary Matching Game</title>
+    <style>
+        :root {
+            --bg: #e8f0fe;
+            --accent: #007bff;
+            --card: #fff;
+            --correct: #28a745;
+            --incorrect: #dc3545;
+            --text: #333;
+        }
+
+        body {
+            background: var(--bg);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: var(--accent);
+        }
+
+        #gameArea {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            margin-bottom: 160px;
+        }
+
+        #wordDisplay {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: var(--text);
+        }
+
+        #options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        button.optionBtn {
+            background: #eee;
+            border: none;
+            color: #000;
+            padding: 15px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            flex: 1 1 45%;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button.optionBtn:hover {
+            background: #ccc;
+        }
+
+        button.correct {
+            background: var(--correct);
+            color: #fff;
+            cursor: default;
+        }
+
+        button.incorrect {
+            background: var(--incorrect);
+            color: #fff;
+            cursor: default;
+        }
+
+        #nextBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: none;
+        }
+
+        #score {
+            margin-top: 15px;
+            font-size: 18px;
+            color: var(--text);
+        }
+        .chaper {
+            margin: 15px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .chaper button {
+            background: #0d145d;
+            color: #fff;
+            transition: all 0.2s ease;
+            min-width: 130px;
+        }
+
+        .chaper button.active {
+            background: var(--incorrect);
+            color: white;
+            font-weight: bold;
+        }
+        button {
+            background: #111827;
+            color: #fff;
+            border: 0;
+            padding: 8px 12px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+         .wrap {
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="chapterButtons" class="chaper" style="margin-bottom: 10px"></div>
+        <h1>Vocabulary Matching Game</h1>
+        <div id="gameArea">
+            <div id="wordDisplay">Loading...</div>
+            <div id="options"></div>
+            <div style="margin-top: 20px; display: flex; justify-content: center">
+                <button id="nextBtn">Next</button>
+            </div>
+            <div id="score">Score: 0 / 0</div>
+        </div>
+    </div>
+    <script>
+        let vocab = [];
+        let currentIndex = 0;
+        let score = 0;
+
+        const wordDisplay = document.getElementById("wordDisplay");
+        const optionsContainer = document.getElementById("options");
+        const nextBtn = document.getElementById("nextBtn");
+        const scoreEl = document.getElementById("score");
+
+        function createChapterButtons() {
+            const chapters = [
+                "chaper_default.json",
+                "chaper_1_2_3.json",
+                "chaper_4_5_6.json",
+                "chaper_7_8_9.json",
+                "chaper_10_11_12.json",
+                "chaper_13_14_15.json",
+                "chaper_16_17_18.json",
+                "chaper_19_20_21.json",
+                "chaper_22_23_24.json",
+                "chaper_25_26_27.json",
+                "chaper_28_29_30.json",
+                "chaper_31_32_33.json",
+                "chaper_34_35_36.json",
+                "chaper_37_38_39.json",
+                "chaper_40_41_42.json",
+                "chaper_43_44_45.json",
+                "chaper_46_47_48.json",
+                "chaper_49_50_51.json",
+            ];
+            const container = document.getElementById("chapterButtons");
+            container.innerHTML = "";
+            chapters.forEach((chap) => {
+                const btn = document.createElement("button");
+                btn.textContent = chap.replace("chaper_", "").replace(".json", "");
+                btn.classList.add("chapter-button");
+                btn.addEventListener("click", () => {
+                    document.querySelectorAll("#chapterButtons button").forEach(b => b.classList.remove("active"));
+                    btn.classList.add("active");
+                    loadChapter(chap);
+                });
+                if(chap === "chaper_default.json") btn.classList.add("active");
+                container.appendChild(btn);
+            });
+        }
+
+        createChapterButtons();
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+        loadChapter("chaper_default.json");
+        function loadChapter(filename) {
+            fetch(filename)
+                .then((response) => response.json())
+                .then((data) => {
+                    vocab = data;
+                    currentIndex = 0;
+                    score = 0;
+                    scoreEl.textContent = "Đúng: " + score + " / " + vocab.length;
+                    shuffle(vocab);
+                    showQuestion();
+                })
+                .catch((error) => {
+                    wordDisplay.textContent = "Failed to load vocabulary.";
+                    console.error("Error loading chapter:", error);
+                });
+        }
+        function showQuestion() {
+            nextBtn.style.display = "none";
+            optionsContainer.innerHTML = "";
+
+            if (currentIndex >= vocab.length) {
+                wordDisplay.textContent = "Game Over! Your score: " + score;
+                nextBtn.style.display = "none";
+                return;
+            }
+            
+            // Cập nhật hiển thị tiến độ câu hỏi
+            scoreEl.textContent = "Đúng: " + score + " / " + vocab.length;
+
+            const currentWord = vocab[currentIndex];
+            wordDisplay.textContent = "Câu  " + (currentIndex + 1) + ": " + currentWord.word;
+
+
+            let options = [currentWord.meaning];
+            while (options.length < 4) {
+                const randMeaning =
+                    vocab[Math.floor(Math.random() * vocab.length)].meaning;
+                if (!options.includes(randMeaning)) {
+                    options.push(randMeaning);
+                }
+            }
+
+            shuffle(options);
+
+            options.forEach((option) => {
+                const btn = document.createElement("button");
+                btn.textContent = option;
+                btn.className = "optionBtn";
+                btn.disabled = false;
+                btn.addEventListener("click", () =>
+                    selectOption(btn, option, currentWord.meaning)
+                );
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function selectOption(btn, selected, correct) {
+            const allButtons = document.querySelectorAll("button.optionBtn");
+            allButtons.forEach((b) => (b.disabled = true));
+            if (selected === correct) {
+                btn.classList.add("correct");
+                score++;
+                scoreEl.textContent = "Đúng: " + score + " / " + vocab.length;
+            } else {
+                btn.classList.add("incorrect");
+                allButtons.forEach((b) => {
+                    if (b.textContent === correct) {
+                        b.classList.add("correct");
+                    }
+                });
+            }
+            nextBtn.style.display = "inline-block";
+        }
+
+        nextBtn.addEventListener("click", () => {
+            currentIndex++;
+            showQuestion();
+        });
+    </script>
+</body>
+
+</html>
