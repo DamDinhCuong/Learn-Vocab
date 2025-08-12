@@ -1,0 +1,373 @@
+[
+  {
+    "word": "admit",
+    "ipa": "/ədˈmɪt/",
+    "pos": "v",
+    "meaning": "cho vào, thừa nhận",
+    "notes": "to permit to enter"
+  },
+  {
+    "word": "authorization",
+    "ipa": "/ˌɔːθərəˈzeɪʃn/",
+    "pos": "(n)",
+    "meaning": "sự cấp, cho phép",
+    "notes": "the act of sanctioning"
+  },
+  {
+    "word": "designate",
+    "ipa": "/ˈdezɪɡneɪt/",
+    "pos": "(v)",
+    "meaning": "được chỉ định",
+    "notes": "to indicate or specify"
+  },
+  {
+    "word": "escort",
+    "ipa": "/ˈeskɔːrt/",
+    "pos": "(n)",
+    "meaning": "vệ sĩ",
+    "notes": "a person accompanying another to guide or protect"
+  },
+  {
+    "word": "identify",
+    "ipa": "/aɪˈdentɪfaɪ/",
+    "pos": "(v)",
+    "meaning": "nhận dạng, nhận biết",
+    "notes": "to ascertain the name or belongings of"
+  },
+  {
+    "word": "missing",
+    "ipa": "/ˈmɪsɪŋ/",
+    "pos": "(n)",
+    "meaning": "mất tích, vắng mặt",
+    "notes": "an inner calling to pursue an activity or perform a service"
+  },
+  {
+    "word": "permit",
+    "ipa": "/pərˈmɪt/",
+    "pos": "(v)",
+    "meaning": "cho phép",
+    "notes": "to allow"
+  },
+  {
+    "word": "pertinent",
+    "ipa": "/ˈpɜːrtɪnənt/",
+    "pos": "(adj)",
+    "meaning": "thích hợp",
+    "notes": "having relevance to the matter at hand"
+  },
+  {
+    "word": "procedure",
+    "ipa": "/prəˈsiːdʒər/",
+    "pos": "(n)",
+    "meaning": "thủ tục",
+    "notes": "a series of steps taken to accomplish an end"
+  },
+  {
+    "word": "result",
+    "ipa": "/rɪˈzʌlt/",
+    "pos": "(n)",
+    "meaning": "kết quả",
+    "notes": "an outcome"
+  },
+  {
+    "word": "statement",
+    "ipa": "/ˈsteɪtmənt/",
+    "pos": "(n)",
+    "meaning": "sự trình bày",
+    "notes": "an accounting showing an amount due; a bill"
+  },
+  {
+    "word": "usual",
+    "ipa": "/ˈjuːʒuəl/",
+    "pos": "(adj)",
+    "meaning": "bình thường",
+    "notes": "ordinary, expected"
+  },
+  {
+    "word": "consult",
+    "ipa": "/kənˈsʌlt/",
+    "pos": "(v)",
+    "meaning": "hỏi ý kiến, tham khảo",
+    "notes": "to seek advice or information of"
+  },
+  {
+    "word": "control",
+    "ipa": "/kənˈtroʊl/",
+    "pos": "(v)",
+    "meaning": "kiểm soát",
+    "notes": "to exercise authoritative or dominating influence"
+  },
+  {
+    "word": "convenient",
+    "ipa": "/kənˈviːniənt/",
+    "pos": "(adj)",
+    "meaning": "tiện lợi, thuận tiện",
+    "notes": "suited or favorable to one's purpose; easy to reach"
+  },
+  {
+    "word": "detect",
+    "ipa": "/dɪˈtekt/",
+    "pos": "(v)",
+    "meaning": "nhận thấy, phát hiện ra",
+    "notes": "to discover or ascertain"
+  },
+  {
+    "word": "factor",
+    "ipa": "/ˈfæktər/",
+    "pos": "(n)",
+    "meaning": "nhân tố",
+    "notes": "a contribution to an accomplishment, a result, or a process"
+  },
+  {
+    "word": "interaction",
+    "ipa": "/ˌɪntərˈækʃn/",
+    "pos": "(n)",
+    "meaning": "sự ảnh hưởng lẫn nhau",
+    "notes": "an influence; a mutual activity"
+  },
+  {
+    "word": "limit",
+    "ipa": "/ˈlɪmɪt/",
+    "pos": "(n)",
+    "meaning": "giới hạn",
+    "notes": "the point beyond which something cannot proceed"
+  },
+  {
+    "word": "monitor",
+    "ipa": "/ˈmɑːnɪtər/",
+    "pos": "(v)",
+    "meaning": "giám sát, theo dõi",
+    "notes": "to keep track of"
+  },
+  {
+    "word": "potential",
+    "ipa": "/pəˈtenʃl/",
+    "pos": "(adj)",
+    "meaning": "tiềm năng, tiềm tàng",
+    "notes": "capable of being but not yet in existence; possible"
+  },
+  {
+    "word": "sample",
+    "ipa": "/ˈsæmpl/",
+    "pos": "(n)",
+    "meaning": "mẫu, vật mẫu",
+    "notes": "a portion, piece, or segment that is representative of a whole"
+  },
+  {
+    "word": "sense",
+    "ipa": "/sens/",
+    "pos": "(n)",
+    "meaning": "khả năng đánh giá, sự am hiểu",
+    "notes": "a judgment, an intellectual interpretation"
+  },
+  {
+    "word": "volunteer",
+    "ipa": "/ˌvɑːlənˈtɪr/",
+    "pos": "(v)",
+    "meaning": "người tình nguyện",
+    "notes": "to perform as a volunteer"
+  },
+  {
+    "word": "change",
+    "ipa": "/tʃeɪndʒ/",
+    "pos": "v",
+    "meaning": "thay đổi để làm gì đó",
+    "notes": "to do sth"
+  },
+  {
+    "word": "one another",
+    "ipa": "/wʌn əˈnʌðər/",
+    "pos": "pron",
+    "meaning": "lẫn nhau (3 người/vật)",
+    "notes": ""
+  },
+  {
+    "word": "each other",
+    "ipa": "/iːtʃ ˈʌðər/",
+    "pos": "pron",
+    "meaning": "lẫn nhau (2 người/vật)",
+    "notes": ""
+  },
+  {
+    "word": "strengths",
+    "ipa": "/streŋkθs/",
+    "pos": "n",
+    "meaning": "điểm mạnh",
+    "notes": ""
+  },
+  {
+    "word": "weaknesses",
+    "ipa": "/ˈwiːknəsɪz/",
+    "pos": "n",
+    "meaning": "điểm yếu",
+    "notes": ""
+  },
+  {
+    "word": "different",
+    "ipa": "/ˈdɪfrənt/",
+    "pos": "adj",
+    "meaning": "khác biệt",
+    "notes": ""
+  },
+  {
+    "word": "difficult",
+    "ipa": "/ˈdɪfɪkəlt/",
+    "pos": "adj",
+    "meaning": "khó khăn",
+    "notes": ""
+  },
+  {
+    "word": "difficulties",
+    "ipa": "/ˈdɪfɪkəltiz/",
+    "pos": "n",
+    "meaning": "những khó khăn",
+    "notes": ""
+  },
+  {
+    "word": "difficulty",
+    "ipa": "/ˈdɪfɪkəlti/",
+    "pos": "n",
+    "meaning": "sự khó khăn",
+    "notes": ""
+  },
+  {
+    "word": "brain",
+    "ipa": "/breɪn/",
+    "pos": "n",
+    "meaning": "bộ não",
+    "notes": ""
+  },
+  {
+    "word": "search for",
+    "ipa": "/sɜːrtʃ fɔːr/",
+    "pos": "v",
+    "meaning": "tìm kiếm",
+    "notes": "tương tự 'look for', 'seek'"
+  },
+  {
+    "word": "look for",
+    "ipa": "/lʊk fɔːr/",
+    "pos": "v",
+    "meaning": "tìm kiếm",
+    "notes": ""
+  },
+  {
+    "word": "seek",
+    "ipa": "/siːk/",
+    "pos": "v",
+    "meaning": "tìm kiếm",
+    "notes": ""
+  },
+  {
+    "word": "repeat",
+    "ipa": "/rɪˈpiːt/",
+    "pos": "v",
+    "meaning": "lặp lại",
+    "notes": ""
+  },
+  {
+    "word": "repetitive",
+    "ipa": "/rɪˈpetətɪv/",
+    "pos": "adj",
+    "meaning": "lặp đi lặp lại",
+    "notes": ""
+  },
+  {
+    "word": "familiar with",
+    "ipa": "/fəˈmɪliər wɪð/",
+    "pos": "adj",
+    "meaning": "quen với",
+    "notes": ""
+  },
+  {
+    "word": "processes",
+    "ipa": "/ˈprɑːsesɪz/",
+    "pos": "n",
+    "meaning": "quy trình",
+    "notes": ""
+  },
+  {
+    "word": "experience",
+    "ipa": "/ɪkˈspɪriəns/",
+    "pos": "n",
+    "meaning": "kinh nghiệm",
+    "notes": ""
+  },
+  {
+    "word": "promote",
+    "ipa": "/prəˈmoʊt/",
+    "pos": "v",
+    "meaning": "thăng tiến",
+    "notes": ""
+  },
+  {
+    "word": "suitcase",
+    "ipa": "/ˈsuːtkeɪs/",
+    "pos": "n",
+    "meaning": "va li",
+    "notes": ""
+  },
+  {
+    "word": "baggage claim",
+    "ipa": "/ˈbæɡɪdʒ kleɪm/",
+    "pos": "n",
+    "meaning": "khu vực lấy hành lý",
+    "notes": ""
+  },
+  {
+    "word": "baggage carousel",
+    "ipa": "/ˈbæɡɪdʒ ˌkærəˈsel/",
+    "pos": "n",
+    "meaning": "băng chuyền hành lý",
+    "notes": ""
+  },
+  {
+    "word": "so that",
+    "ipa": "/soʊ ðæt/",
+    "pos": "conj",
+    "meaning": "để mà",
+    "notes": "dùng với S + can/will + V để chỉ mục đích"
+  },
+  {
+    "word": "apologize for",
+    "ipa": "/əˈpɑːlədʒaɪz fɔːr/",
+    "pos": "v",
+    "meaning": "xin lỗi vì",
+    "notes": "dùng với V-ing/N"
+  },
+  {
+    "word": "exchange",
+    "ipa": "/ɪksˈtʃeɪndʒ/",
+    "pos": "v",
+    "meaning": "đổi lại",
+    "notes": ""
+  },
+  {
+    "word": "replacement",
+    "ipa": "/rɪˈpleɪsmənt/",
+    "pos": "n",
+    "meaning": "sự thay thế",
+    "notes": ""
+  },
+  {
+    "word": "available",
+    "ipa": "/əˈveɪləbl/",
+    "pos": "adj",
+    "meaning": "có sẵn",
+    "notes": ""
+  },
+  {
+    "word": "incorrect",
+    "ipa": "/ˌɪnkəˈrekt/",
+    "pos": "adj",
+    "meaning": "không chính xác",
+    "notes": ""
+  },
+  {
+    "word": "item",
+    "ipa": "/ˈaɪtəm/",
+    "pos": "n",
+    "meaning": "món đồ, vật phẩm",
+    "notes": ""
+  }
+]

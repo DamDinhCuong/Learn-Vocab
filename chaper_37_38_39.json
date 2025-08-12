@@ -1,0 +1,247 @@
+[
+    {
+        "word": "deal with",
+        "ipa": "/diːl wɪð/",
+        "pos": "v",
+        "meaning": "đối phó với",
+        "notes": "to attend to; manage; to see to"
+    },
+    {
+        "word": "destination",
+        "ipa": "/ˌdɛstɪˈneɪʃən/",
+        "pos": "n",
+        "meaning": "điểm đến",
+        "notes": "the place to which one is going or directed"
+    },
+    {
+        "word": "distinguish",
+        "ipa": "/dɪˈstɪŋɡwɪʃ/",
+        "pos": "v",
+        "meaning": "phân biệt",
+        "notes": "to make noticeable or different"
+    },
+    {
+        "word": "economical",
+        "ipa": "/ˌiːkəˈnɒmɪkəl/",
+        "pos": "adj",
+        "meaning": "tiết kiệm",
+        "notes": "intended to save money, time, or effort"
+    },
+    {
+        "word": "equivalent",
+        "ipa": "/ɪˈkwɪvələnt/",
+        "pos": "adj",
+        "meaning": "tương đương, bằng nhau",
+        "notes": "equal"
+    },
+    {
+        "word": "excursion",
+        "ipa": "/ɪkˈskɜːrʒən/",
+        "pos": "n",
+        "meaning": "cuộc tham quan",
+        "notes": "a pleasure trip; a trip at a reduced fare"
+    },
+    {
+        "word": "expensive",
+        "ipa": "/ɪkˈspensɪv/",
+        "pos": "adj",
+        "meaning": "đắt",
+        "notes": "marked by high prices"
+    },
+    {
+        "word": "extend",
+        "ipa": "/ɪkˈstɛnd/",
+        "pos": "v",
+        "meaning": "kéo dài, dành cho",
+        "notes": "to make longer; to offer"
+    },
+    {
+        "word": "prospective",
+        "ipa": "/prəˈspɛktɪv/",
+        "pos": "adj",
+        "meaning": "tương lai, triển vọng, về sau",
+        "notes": "likely to become or be"
+    },
+    {
+        "word": "situation",
+        "ipa": "/ˌsɪtʃuˈeɪʃən/",
+        "pos": "n",
+        "meaning": "tình huống",
+        "notes": "the combination of circumstances at a given moment"
+    },
+    {
+        "word": "substantial",
+        "ipa": "/səbˈstænʃəl/",
+        "pos": "adj",
+        "meaning": "lớn, quan trọng",
+        "notes": "considerable in importance, value, degree, amount, or extent"
+    },
+    {
+        "word": "system",
+        "ipa": "/ˈsɪstəm/",
+        "pos": "n",
+        "meaning": "hệ thống",
+        "notes": "a functionally related group of elements"
+    },
+    {
+        "word": "comprehensive",
+        "ipa": "/ˌkɒmprɪˈhɛnsɪv/",
+        "pos": "adj",
+        "meaning": "toàn diện",
+        "notes": "covering broadly; inclusive"
+    },
+    {
+        "word": "deluxe",
+        "ipa": "/dəˈlʌks/",
+        "pos": "adj",
+        "meaning": "xa xỉ, xa hoa",
+        "notes": "noticeably luxurious"
+    },
+    {
+        "word": "directory",
+        "ipa": "/dəˈrɛktəri/",
+        "pos": "n",
+        "meaning": "danh bạ",
+        "notes": "a book or collection of information or directions"
+    },
+    {
+        "word": "duration",
+        "ipa": "/djʊˈreɪʃən/",
+        "pos": "n",
+        "meaning": "khoảng thời gian, thời lượng",
+        "notes": "the time during which something lasts"
+    },
+    {
+        "word": "entitle",
+        "ipa": "/ɪnˈtaɪtl/",
+        "pos": "v",
+        "meaning": "cho quyền (làm gì)",
+        "notes": "to allow or qualify"
+    },
+    {
+        "word": "fare",
+        "ipa": "/feər/",
+        "pos": "n",
+        "meaning": "tiền xe, tiền vé",
+        "notes": "the money paid for transportation"
+    },
+    {
+        "word": "offset",
+        "ipa": "/ˈɒfsɛt/",
+        "pos": "v",
+        "meaning": "đền bù, bù đắp",
+        "notes": "to counterbalance"
+    },
+    {
+        "word": "operate",
+        "ipa": "/ˈɒpəreɪt/",
+        "pos": "v",
+        "meaning": "hoạt động",
+        "notes": "to perform a function"
+    },
+    {
+        "word": "punctual",
+        "ipa": "/ˈpʌŋktʃuəl/",
+        "pos": "adj",
+        "meaning": "đúng giờ, kịp thời",
+        "notes": "prompt"
+    },
+    {
+        "word": "relatively",
+        "ipa": "/ˈrɛlətɪvli/",
+        "pos": "adv",
+        "meaning": "vừa phải, tương đối",
+        "notes": "somewhat"
+    },
+    {
+        "word": "remainder",
+        "ipa": "/rɪˈmeɪndər/",
+        "pos": "n",
+        "meaning": "phần còn lại, số dư, phần dư",
+        "notes": "the remaining part"
+    },
+    {
+        "word": "remote",
+        "ipa": "/rɪˈmoʊt/",
+        "pos": "adj",
+        "meaning": "xa xôi, hẻo lánh",
+        "notes": "far removed"
+    },
+    {
+        "word": "advance",
+        "ipa": "/ədˈvɑːns/",
+        "pos": "n",
+        "meaning": "tiến bộ",
+        "notes": "a move forward"
+    },
+    {
+        "word": "chain",
+        "ipa": "/tʃeɪn/",
+        "pos": "n",
+        "meaning": "chuỗi, dây chuyền",
+        "notes": "a group of enterprises under a single control"
+    },
+    {
+        "word": "check in",
+        "ipa": "/tʃɛk ɪn/",
+        "pos": "v",
+        "meaning": "đăng ký",
+        "notes": "to register at a hotel; to report one's presence"
+    },
+    {
+        "word": "confirm",
+        "ipa": "/kənˈfɜːrm/",
+        "pos": "v",
+        "meaning": "xác nhận",
+        "notes": "to validate"
+    },
+    {
+        "word": "expect",
+        "ipa": "/ɪkˈspɛkt/",
+        "pos": "v",
+        "meaning": "kỳ vọng",
+        "notes": "to consider probable or reasonable"
+    },
+    {
+        "word": "housekeeper",
+        "ipa": "/ˈhaʊskiːpər/",
+        "pos": "n",
+        "meaning": "quản gia",
+        "notes": "someone employed to manage the domestic work"
+    },
+    {
+        "word": "notify",
+        "ipa": "/ˈnoʊtɪfaɪ/",
+        "pos": "v",
+        "meaning": "thông báo",
+        "notes": "to report"
+    },
+    {
+        "word": "preclude",
+        "ipa": "/prɪˈkluːd/",
+        "pos": "v",
+        "meaning": "ngăn cản, ngăn chặn",
+        "notes": "to make impossible"
+    },
+    {
+        "word": "quote",
+        "ipa": "/kwoʊt/",
+        "pos": "v",
+        "meaning": "trích dẫn",
+        "notes": "to repeat exactly"
+    },
+    {
+        "word": "rate",
+        "ipa": "/reɪt/",
+        "pos": "n",
+        "meaning": "giá cả",
+        "notes": "the payment or price"
+    },
+    {
+        "word": "service",
+        "ipa": "/ˈsɜːrvɪs/",
+        "pos": "n",
+        "meaning": "dịch vụ",
+        "notes": "useful functions"
+    }
+]

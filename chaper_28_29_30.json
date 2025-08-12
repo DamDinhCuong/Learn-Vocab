@@ -1,0 +1,254 @@
+[
+    {
+        "word": "brand",
+        "ipa": "/brænd/",
+        "pos": "(n)",
+        "meaning": "nhãn hiệu",
+        "notes": "an identifying mark or label, a trademark"
+    },
+    {
+        "word": "conform",
+        "ipa": "/kənˈfɔːrm/",
+        "pos": "(v)",
+        "meaning": "tuân theo, làm theo",
+        "notes": "to match specifications or qualities"
+    },
+    {
+        "word": "defect",
+        "ipa": "/ˈdiː.fekt/",
+        "pos": "(n)",
+        "meaning": "khuyết điểm, thiếu sót",
+        "notes": "an imperfection or flaw"
+    },
+    {
+        "word": "enhance",
+        "ipa": "/ɪnˈhæns/",
+        "pos": "(v)",
+        "meaning": "nâng cao",
+        "notes": "to make more attractive or valuable"
+    },
+    {
+        "word": "garment",
+        "ipa": "/ˈɡɑːr.mənt/",
+        "pos": "(n)",
+        "meaning": "quần áo",
+        "notes": "an article of clothing"
+    },
+    {
+        "word": "inspect",
+        "ipa": "/ɪnˈspekt/",
+        "pos": "(v)",
+        "meaning": "xem xét kĩ, kiểm tra",
+        "notes": "to look at closely, to examine carefully or officially"
+    },
+    {
+        "word": "perceive",
+        "ipa": "/pərˈsiːv/",
+        "pos": "(v)",
+        "meaning": "nhận thấy, nhận biết",
+        "notes": "to notice, to become aware of, to see"
+    },
+    {
+        "word": "repel",
+        "ipa": "/rɪˈpel/",
+        "pos": "(v)",
+        "meaning": "đẩy xua đuổi, chống lại",
+        "notes": "to keep away, to fight against"
+    },
+    {
+        "word": "take back",
+        "ipa": "/teɪk bæk/",
+        "pos": "(v)",
+        "meaning": "rút lui, lấy lại",
+        "notes": "to return something, to withdraw or retract"
+    },
+    {
+        "word": "throw out",
+        "ipa": "/θroʊ aʊt/",
+        "pos": "(v)",
+        "meaning": "vứt bỏ, đuổi",
+        "notes": "to dispose of"
+    },
+    {
+        "word": "uniform",
+        "ipa": "/ˈjuː.nə.fɔːrm/",
+        "pos": "(adj)",
+        "meaning": "cùng một kiểu, đồng đều",
+        "notes": "consistent in form or appearance"
+    },
+    {
+        "word": "wrinkle",
+        "ipa": "/ˈrɪŋ.kəl/",
+        "pos": "(n)",
+        "meaning": "vết nhăn, nếp nhăn",
+        "notes": "a crease, ridge, or furrow, especially in skin or fabric"
+    },
+    {
+        "word": "anxious",
+        "ipa": "/ˈæŋk.ʃəs/",
+        "pos": "(adj)",
+        "meaning": "lo lắng, băn khoăn",
+        "notes": "worried"
+    },
+    {
+        "word": "ascertain",
+        "ipa": "/ˌæs.ɚˈteɪn/",
+        "pos": "(v)",
+        "meaning": "xác định",
+        "notes": "to discover, to find out for certain"
+    },
+    {
+        "word": "assume",
+        "ipa": "/əˈsuːm/",
+        "pos": "(v)",
+        "meaning": "cho rằng, giả sử",
+        "notes": "to take upon oneself, to believe to be true"
+    },
+    {
+        "word": "decade",
+        "ipa": "/ˈdek.eɪd/",
+        "pos": "(n)",
+        "meaning": "thập kỷ",
+        "notes": "a period of ten years"
+    },
+    {
+        "word": "examine",
+        "ipa": "/ɪɡˈzæm.ɪn/",
+        "pos": "(v)",
+        "meaning": "xem xét chi tiết",
+        "notes": "to interrogate, to scrutinize"
+    },
+    {
+        "word": "experiment",
+        "ipa": "/ɪkˈsper.ə.mənt/",
+        "pos": "(v, n)",
+        "meaning": "làm thử nghiệm",
+        "notes": "to try out a new procedure or idea, a test or trial"
+    },
+    {
+        "word": "logical",
+        "ipa": "/ˈlɒdʒ.ɪ.kəl/",
+        "pos": "(adj)",
+        "meaning": "hợp logic, hợp lý",
+        "notes": "formally valid, using orderly reasoning"
+    },
+    {
+        "word": "research",
+        "ipa": "/rɪˈsɜːrtʃ/",
+        "pos": "(n)",
+        "meaning": "nghiên cứu",
+        "notes": "the act of collecting information about a particular subject"
+    },
+    {
+        "word": "responsibility",
+        "ipa": "/rɪˌspɒn.sɪˈbɪl.ə.ti/",
+        "pos": "(n)",
+        "meaning": "trách nhiệm",
+        "notes": "task"
+    },
+    {
+        "word": "solve",
+        "ipa": "/sɒlv/",
+        "pos": "(v)",
+        "meaning": "giải quyết",
+        "notes": "to find a solution, explanation, or answer"
+    },
+    {
+        "word": "supervisor",
+        "ipa": "/ˈsuː.pɚ.vaɪ.zɚ/",
+        "pos": "(n)",
+        "meaning": "người giám sát",
+        "notes": "an administrator in charge"
+    },
+    {
+        "word": "systematic",
+        "ipa": "/ˌsɪs.təˈmæt.ɪk/",
+        "pos": "(adj)",
+        "meaning": "có hệ thống",
+        "notes": "methodical in procedure, organized"
+    },
+    {
+        "word": "apprehensive",
+        "ipa": "/ˌæp.rɪˈhen.sɪv/",
+        "pos": "(adj)",
+        "meaning": "sợ hãi, e sợ",
+        "notes": "anxious about the future"
+    },
+    {
+        "word": "circumstance",
+        "ipa": "/ˈsɜː.kəm.stæns/",
+        "pos": "(n)",
+        "meaning": "hoàn cảnh, tình huống",
+        "notes": "a condition, a situation"
+    },
+    {
+        "word": "condition",
+        "ipa": "/kənˈdɪʃ.ən/",
+        "pos": "(n)",
+        "meaning": "điều kiện",
+        "notes": "the state of something, a requirement"
+    },
+    {
+        "word": "due to",
+        "ipa": "/duː tuː/",
+        "pos": "(pre)",
+        "meaning": "bởi vì",
+        "notes": "because of"
+    },
+    {
+        "word": "fluctuate",
+        "ipa": "/ˈflʌk.tʃu.eɪt/",
+        "pos": "(v)",
+        "meaning": "dao động, thay đổi bất thường",
+        "notes": "to go up and down, to change"
+    },
+    {
+        "word": "get out of",
+        "ipa": "/ɡet aʊt əv/",
+        "pos": "(v)",
+        "meaning": "rời khỏi",
+        "notes": "to escape, to exit"
+    },
+    {
+        "word": "indicator",
+        "ipa": "/ˈɪn.dɪ.keɪ.tər/",
+        "pos": "(n)",
+        "meaning": "người chỉ thị",
+        "notes": "a sign, a signal"
+    },
+    {
+        "word": "lease",
+        "ipa": "/liːs/",
+        "pos": "(n, v)",
+        "meaning": "hợp đồng cho thuê",
+        "notes": "a contract to use property for an amount of time, to make a contract to use property"
+    },
+    {
+        "word": "lock into",
+        "ipa": "/lɒk ˈɪn.tuː/",
+        "pos": "(v)",
+        "meaning": "cam kết, không thể thay đổi",
+        "notes": "to commit, to be unable to change"
+    },
+    {
+        "word": "occupancy",
+        "ipa": "/ˈɒk.jə.pən.si/",
+        "pos": "(n)",
+        "meaning": "sự cư ngụ, cư trú",
+        "notes": "the state of being or living in a certain place"
+    },
+    {
+        "word": "option",
+        "ipa": "/ˈɒp.ʃən/",
+        "pos": "(n)",
+        "meaning": "sự lựa chọn",
+        "notes": "a choice, an alternative"
+    },
+    {
+        "word": "subject to",
+        "ipa": "/ˈsʌb.dʒɪkt tuː/",
+        "pos": "(adj)",
+        "meaning": "phụ thuộc vào",
+        "notes": "under legal power, dependent"
+    }
+]

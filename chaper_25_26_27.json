@@ -1,0 +1,254 @@
+[
+  {
+    "word": "desired",
+    "ipa": "/dɪˈzaɪərd/",
+    "pos": "(adj)",
+    "meaning": "mong muốn",
+    "notes": "wished or longed for"
+  },
+  {
+    "word": "detail",
+    "ipa": "/ˈdiːteɪl/",
+    "pos": "(v)",
+    "meaning": "chi tiết, cụ thể",
+    "notes": "to report or relate minutely or in particulars"
+  },
+  {
+    "word": "forecast",
+    "ipa": "/ˈfɔːrkæst/",
+    "pos": "(n)",
+    "meaning": "dự đoán",
+    "notes": "a prediction of a future event"
+  },
+  {
+    "word": "level",
+    "ipa": "/ˈlevl/",
+    "pos": "(n)",
+    "meaning": "cấp độ",
+    "notes": "a relative position or rank on a scale"
+  },
+  {
+    "word": "overall",
+    "ipa": "/ˌoʊvərˈɔːl/",
+    "pos": "(adj)",
+    "meaning": "toàn bộ, toàn diện",
+    "notes": "regarded as a whole, general"
+  },
+  {
+    "word": "perspective",
+    "ipa": "/pərˈspektɪv/",
+    "pos": "(n)",
+    "meaning": "quan điểm, cách nhìn",
+    "notes": "a mental view or outlook"
+  },
+  {
+    "word": "projected",
+    "ipa": "/prəˈdʒektɪd/",
+    "pos": "(adj)",
+    "meaning": "kế hoạch, dự kiến",
+    "notes": "estimated, or predicted based on present data"
+  },
+  {
+    "word": "realistic",
+    "ipa": "/ˌriːəˈlɪstɪk/",
+    "pos": "(adj)",
+    "meaning": "thực tế",
+    "notes": "tending to or expressing an awareness of things as they really are"
+  },
+  {
+    "word": "target",
+    "ipa": "/ˈtɑːrɡɪt/",
+    "pos": "(v)",
+    "meaning": "mục tiêu",
+    "notes": "to establish as a goal"
+  },
+  {
+    "word": "translation",
+    "ipa": "/trænzˈleɪʃn/",
+    "pos": "(n)",
+    "meaning": "sự phiên dịch",
+    "notes": "the act or process of translating"
+  },
+  {
+    "word": "typical",
+    "ipa": "/ˈtɪpɪkl/",
+    "pos": "(adj)",
+    "meaning": "đặc thù, đặc trưng",
+    "notes": "conforming to a type"
+  },
+  {
+    "word": "yield",
+    "ipa": "/jiːld/",
+    "pos": "(n)",
+    "meaning": "lợi nhuận, lợi tức",
+    "notes": "an amount produced, to produce a profit"
+  },
+  {
+    "word": "adjacent",
+    "ipa": "/əˈdʒeɪsnt/",
+    "pos": "(adj)",
+    "meaning": "kế liền, sát ngay",
+    "notes": "next to"
+  },
+  {
+    "word": "collaboration",
+    "ipa": "/kəˌlæbəˈreɪʃn/",
+    "pos": "(n)",
+    "meaning": "cộng tác",
+    "notes": "the act of working with someone"
+  },
+  {
+    "word": "concentrate",
+    "ipa": "/ˈkɒnsntreɪt/",
+    "pos": "(v)",
+    "meaning": "tập trung",
+    "notes": "to focus, to think about"
+  },
+  {
+    "word": "conducive",
+    "ipa": "/kənˈdjuːsɪv/",
+    "pos": "(adj)",
+    "meaning": "có ích, có lợi",
+    "notes": "contributing to, leading to"
+  },
+  {
+    "word": "disrupt",
+    "ipa": "/dɪsˈrʌpt/",
+    "pos": "(v)",
+    "meaning": "làm gián đoạn, quấy rầy",
+    "notes": "to interrupt, to disturb"
+  },
+  {
+    "word": "hamper",
+    "ipa": "/ˈhæmpər/",
+    "pos": "(v)",
+    "meaning": "cản trở",
+    "notes": "to impede or interfere"
+  },
+  {
+    "word": "inconsiderate",
+    "ipa": "/ˌɪnkənˈsɪdərət/",
+    "pos": "(adj)",
+    "meaning": "thô lỗ, bất lịch sự, thiếu quan tâm",
+    "notes": "rude, impolite"
+  },
+  {
+    "word": "lobby",
+    "ipa": "/ˈlɑːbi/",
+    "pos": "(n)",
+    "meaning": "hành lang",
+    "notes": "an anteroom, foyer, or waiting room"
+  },
+  {
+    "word": "move up",
+    "ipa": "/muːv ʌp/",
+    "pos": "(v)",
+    "meaning": "tiến lên",
+    "notes": "to advance, improve position"
+  },
+  {
+    "word": "open to",
+    "ipa": "/ˈəʊpən tuː/",
+    "pos": "(adj)",
+    "meaning": "dễ tiếp nhận",
+    "notes": "receptive to, vulnerable"
+  },
+  {
+    "word": "opt",
+    "ipa": "/ɒpt/",
+    "pos": "(v)", 
+    "meaning": "chọn lựa, chọn",
+    "notes": "to choose, to decide on"
+  },
+  {
+    "word": "scrutinize",
+    "ipa": "/ˈskruːtənaɪz/",
+    "pos": "(v)",
+    "meaning": "xem xét kĩ lưỡng",
+    "notes": "to look at carefully and closely"
+  },
+  {
+    "word": "adhere to",
+    "ipa": "/ədˈhɪə tuː/",
+    "pos": "(v)",
+    "meaning": "tuân thủ",
+    "notes": "to follow, to pay attention to"
+  },
+  {
+    "word": "agenda",
+    "ipa": "/əˈdʒendə/",
+    "pos": "(n)",
+    "meaning": "danh sách các vấn đề cần thảo luận",
+    "notes": "a list of topics to be discussed"
+  },
+  {
+    "word": "bring up",
+    "ipa": "/brɪŋ ʌp/",
+    "pos": "(v)",
+    "meaning": "đưa ra",
+    "notes": "to introduce a topic"
+  },
+  {
+    "word": "conclude",
+    "ipa": "/kənˈkluːd/",
+    "pos": "(v)",
+    "meaning": "kết thúc, chấm dứt",
+    "notes": "to stop, to come to a decision"
+  },
+  {
+    "word": "go ahead",
+    "ipa": "/ɡəʊ əˈhed/",
+    "pos": "(v)",
+    "meaning": "tiến hành",
+    "notes": "to proceed with, n. permission to do something"
+  },
+  {
+    "word": "goal",
+    "ipa": "/ɡəʊl/",
+    "pos": "(n)",
+    "meaning": "mục tiêu",
+    "notes": "objective, purpose"
+  },
+  {
+    "word": "lengthy",
+    "ipa": "/ˈleŋθi/",
+    "pos": "(adj)",
+    "meaning": "dài dòng",
+    "notes": "long in time, duration, or distance"
+  },
+  {
+    "word": "matter",
+    "ipa": "/ˈmætə/",
+    "pos": "(n)",
+    "meaning": "vấn đề",
+    "notes": "an item, issue, topic of interest"
+  },
+  {
+    "word": "periodically",
+    "ipa": "/ˌpɪəriˈɒdɪkli/",
+    "pos": "(adv)",
+    "meaning": "một cách định kỳ",
+    "notes": "from time to time"
+  },
+  {
+    "word": "priority",
+    "ipa": "/praɪˈɒrəti/",
+    "pos": "(n)",
+    "meaning": "quyền ưu tiên",
+    "notes": "something of importance, something that should be done before other things"
+  },
+  {
+    "word": "progress",
+    "ipa": "/ˈprəʊɡres/",
+    "pos": "(n)",
+    "meaning": "sự tiến bộ",
+    "notes": "a movement forward, especially work or a project"
+  },
+  {
+    "word": "waste",
+    "ipa": "/weɪst/",
+    "pos": "(n)",
+    "meaning": "vô giá trị",
+    "notes": "not to use wisely, not worthwhile"
+  }
+]

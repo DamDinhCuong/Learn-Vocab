@@ -1,254 +1,254 @@
 [
   {
     "word": "assemble",
-    "ipa": "",
+    "ipa": "/əˈsembl/",
     "pos": "(v)",
     "meaning": "tập hợp, thu thập",
-    "notes": ""
+    "notes": "to put together; to bring together"
   },
   {
     "word": "beforehand",
-    "ipa": "",
+    "ipa": "/bɪˈfɔːrhænd/",
     "pos": "(adv)",
     "meaning": "trước, ưu tiên",
-    "notes": ""
+    "notes": "early, in advance"
   },
   {
     "word": "complicated",
-    "ipa": "",
+    "ipa": "/ˈkɑːmplɪkeɪtɪd/",
     "pos": "(adj)",
     "meaning": "phức tạp",
-    "notes": ""
+    "notes": "not easy to understand"
   },
   {
     "word": "courier",
-    "ipa": "",
+    "ipa": "/ˈkʊriər/",
     "pos": "(n)",
     "meaning": "người đưa tin, người đưa thư",
-    "notes": ""
+    "notes": "a messenger"
   },
   {
     "word": "express",
-    "ipa": "",
-    "pos": "(a)",
+    "ipa": "/ɪkˈspres/",
+    "pos": "(adj)",
     "meaning": "nhanh, hỏa tốc",
-    "notes": ""
+    "notes": "fast and direct"
   },
   {
     "word": "fold",
-    "ipa": "",
+    "ipa": "/foʊld/",
     "pos": "(v)",
     "meaning": "gấp lại",
-    "notes": ""
+    "notes": "to bend paper"
   },
   {
     "word": "layout",
-    "ipa": "",
+    "ipa": "/ˈleɪaʊt/",
     "pos": "(n)",
-    "meaning": "sự bố trí trang giấy",
-    "notes": ""
+    "meaning": "bố trí trang giấy",
+    "notes": "the organization of material on a page"
   },
   {
     "word": "mention",
-    "ipa": "",
+    "ipa": "/ˈmenʃn/",
     "pos": "(v)",
-    "meaning": "đề cập, sự ghi chép",
-    "notes": ""
+    "meaning": "đề cập, ghi chép",
+    "notes": "to refer to; in something read or written"
   },
   {
     "word": "petition",
-    "ipa": "",
+    "ipa": "/pəˈtɪʃn/",
     "pos": "(n)",
-    "meaning": "đơn yêu cầu, kiến nghị",
-    "notes": ""
+    "meaning": "kiến nghị",
+    "notes": "a formal, written request"
   },
   {
     "word": "proof",
-    "ipa": "",
+    "ipa": "/pruːf/",
     "pos": "(v)",
-    "meaning": "chứng minh",
-    "notes": ""
+    "meaning": "chứng minh, dò lỗi",
+    "notes": "to look for errors"
   },
   {
     "word": "registered",
-    "ipa": "",
-    "pos": "(a)",
-    "meaning": "đăng ký",
-    "notes": ""
+    "ipa": "/ˈredʒɪstərd/",
+    "pos": "(adj)",
+    "meaning": "đã đăng ký",
+    "notes": "recorded and tracked"
   },
   {
     "word": "revise",
-    "ipa": "",
+    "ipa": "/rɪˈvaɪz/",
     "pos": "(v)",
     "meaning": "sửa lại",
-    "notes": ""
+    "notes": "to rewrite"
   },
   {
     "word": "abundant",
-    "ipa": "",
+    "ipa": "/əˈbʌndənt/",
     "pos": "(adj)",
     "meaning": "nhiều, phong phú",
-    "notes": ""
+    "notes": "plentiful, in large quantities"
   },
   {
     "word": "accomplishment",
-    "ipa": "",
+    "ipa": "/əˈkɑːmplɪʃmənt/",
     "pos": "(n)",
-    "meaning": "hoàn thành, đạt được",
-    "notes": ""
+    "meaning": "thành tựu",
+    "notes": "an achievement, a success"
   },
   {
     "word": "bring together",
-    "ipa": "",
+    "ipa": "/brɪŋ təˈɡeðər/",
     "pos": "(v)",
     "meaning": "nhóm lại, gom lại",
-    "notes": ""
+    "notes": "to join, to gather"
   },
   {
     "word": "candidate",
-    "ipa": "",
+    "ipa": "/ˈkændɪdət/",
     "pos": "(n)",
     "meaning": "ứng cử viên",
-    "notes": ""
+    "notes": "one being considered for a position"
   },
   {
     "word": "come up with",
-    "ipa": "",
+    "ipa": "/kʌm ʌp wɪð/",
     "pos": "(v)",
-    "meaning": "ý định, nảy ra",
-    "notes": ""
+    "meaning": "nghĩ ra",
+    "notes": "to plan, to invent, to think of"
   },
   {
     "word": "commensurate",
-    "ipa": "",
+    "ipa": "/kəˈmenʃərət/",
     "pos": "(adj)",
-    "meaning": "tương xứng, cân xứng",
-    "notes": ""
+    "meaning": "tương xứng",
+    "notes": "in proportion to, equal to"
   },
   {
     "word": "match",
-    "ipa": "",
+    "ipa": "/mætʃ/",
     "pos": "(n)",
     "meaning": "vừa, phù hợp",
-    "notes": ""
+    "notes": "a fit, a similarity"
   },
   {
     "word": "profile",
-    "ipa": "",
+    "ipa": "/ˈproʊfaɪl/",
     "pos": "(n)",
-    "meaning": "hồ sơ, lý lịch",
-    "notes": ""
+    "meaning": "hồ sơ",
+    "notes": "a group of characteristics or traits"
   },
   {
     "word": "qualifications",
-    "ipa": "",
+    "ipa": "/ˌkwɑːlɪfɪˈkeɪʃnz/",
     "pos": "(n)",
     "meaning": "năng lực",
-    "notes": ""
+    "notes": "requirements, qualities, or abilities needed for something"
   },
   {
     "word": "recruit",
-    "ipa": "",
+    "ipa": "/rɪˈkruːt/",
     "pos": "(v)",
     "meaning": "tuyển dụng",
-    "notes": ""
+    "notes": "to attract people to join an organization"
   },
   {
     "word": "submit",
-    "ipa": "",
+    "ipa": "/səbˈmɪt/",
     "pos": "(v)",
     "meaning": "nộp",
-    "notes": ""
+    "notes": "to present for consideration"
   },
   {
     "word": "time-consuming",
-    "ipa": "",
+    "ipa": "/ˈtaɪm kənsuːmɪŋ/",
     "pos": "(adj)",
-    "meaning": "tốn nhiều thời gian",
-    "notes": ""
+    "meaning": "tốn thời gian",
+    "notes": "taking up a lot of time"
   },
   {
     "word": "ability",
-    "ipa": "",
+    "ipa": "/əˈbɪləti/",
     "pos": "(n)",
     "meaning": "khả năng, năng lực",
-    "notes": ""
+    "notes": "a skill, a competence"
   },
   {
     "word": "apply",
-    "ipa": "",
+    "ipa": "/əˈplaɪ/",
     "pos": "(v)",
-    "meaning": "xin việc, tìm việc",
-    "notes": ""
+    "meaning": "xin việc, ứng tuyển",
+    "notes": "to look for work"
   },
   {
     "word": "background",
-    "ipa": "",
+    "ipa": "/ˈbækɡraʊnd/",
     "pos": "(n)",
-    "meaning": "lai lịch, kinh nghiệm",
-    "notes": ""
+    "meaning": "lý lịch, kinh nghiệm",
+    "notes": "a person’s experience"
   },
   {
     "word": "be ready for",
-    "ipa": "",
+    "ipa": "/bi ˈredi fɔːr/",
     "pos": "(v)",
     "meaning": "sẵn sàng cho",
-    "notes": ""
+    "notes": "prepared for"
   },
   {
     "word": "call in",
-    "ipa": "",
+    "ipa": "/kɔːl ɪn/",
     "pos": "(v)",
-    "meaning": "yêu cầu, mời tới",
-    "notes": ""
+    "meaning": "mời tới",
+    "notes": "to request, to invite"
   },
   {
     "word": "confidence",
-    "ipa": "",
+    "ipa": "/ˈkɑːnfɪdəns/",
     "pos": "(n)",
-    "meaning": "tự tin",
-    "notes": ""
+    "meaning": "sự tự tin",
+    "notes": "belief in one’s ability"
   },
   {
     "word": "constantly",
-    "ipa": "",
+    "ipa": "/ˈkɑːnstəntli/",
     "pos": "(adv)",
     "meaning": "liên tục",
-    "notes": ""
+    "notes": "happening all the time"
   },
   {
     "word": "expert",
-    "ipa": "",
+    "ipa": "/ˈekspɜːrt/",
     "pos": "(n)",
-    "meaning": "thành thạo, chuyên gia về",
-    "notes": ""
+    "meaning": "chuyên gia",
+    "notes": "a specialist"
   },
   {
     "word": "follow up",
-    "ipa": "",
+    "ipa": "/ˈfɑːloʊ ʌp/",
     "pos": "(v)",
-    "meaning": "tiếp tục, tiếp theo",
-    "notes": ""
+    "meaning": "tiếp tục, theo dõi",
+    "notes": "to continue, to maintain"
   },
   {
     "word": "hesitate",
-    "ipa": "",
+    "ipa": "/ˈhezɪteɪt/",
     "pos": "(v)",
-    "meaning": "do dự, lưỡng lự",
-    "notes": ""
+    "meaning": "do dự",
+    "notes": "to be reluctant"
   },
   {
     "word": "present",
-    "ipa": "",
+    "ipa": "/prɪˈzent/",
     "pos": "(v)",
-    "meaning": "giới thiệu, trình bày",
-    "notes": ""
+    "meaning": "trình bày",
+    "notes": "to show, to offer for consideration"
   },
   {
     "word": "weakness",
-    "ipa": "",
+    "ipa": "/ˈwiːknəs/",
     "pos": "(n)",
     "meaning": "điểm yếu",
-    "notes": ""
+    "notes": "a fault, a quality lacking strength"
   }
 ]

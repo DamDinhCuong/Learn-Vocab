@@ -1,0 +1,247 @@
+[
+  {
+    "word": "available",
+    "ipa": "/əˈveɪləbl/",
+    "pos": "adj",
+    "meaning": "có sẵn",
+    "notes": "ready for use; willing to serve"
+  },
+  {
+    "word": "broad",
+    "ipa": "/brɔːd/", 
+    "pos": "adj",
+    "meaning": "bao la, mênh mông",
+    "notes": "covering a wide scope"
+  },
+  {
+    "word": "category",
+    "ipa": "/ˈkætəɡəri/",
+    "pos": "n",
+    "meaning": "hạng, loại",
+    "notes": "a division in a system of classification; a general class of ideas"
+  },
+  {
+    "word": "disparate",
+    "ipa": "/ˈdɪspərət/",
+    "pos": "adj",
+    "meaning": "khác loại",
+    "notes": "fundamentally distinct or different"
+  },
+  {
+    "word": "divide",
+    "ipa": "/dɪˈvaɪd/",
+    "pos": "v",
+    "meaning": "chia, phân ra",
+    "notes": "to separate into parts"
+  },
+  {
+    "word": "favorite",
+    "ipa": "/ˈfeɪvərɪt/",
+    "pos": "adj",
+    "meaning": "yêu thích",
+    "notes": "preferred"
+  },
+  {
+    "word": "instinct",
+    "ipa": "/ˈɪnstɪŋkt/",
+    "pos": "n",
+    "meaning": "bản năng",
+    "notes": "an inborn pattern that is a powerful motivation"
+  },
+  {
+    "word": "preference",
+    "ipa": "/ˈprefrəns/",
+    "pos": "n",
+    "meaning": "sự yêu thích",
+    "notes": "someone or something liked over another or others"
+  },
+  {
+    "word": "reason",
+    "ipa": "/ˈriːzn/",
+    "pos": "n",
+    "meaning": "lý do",
+    "notes": "the basis or motive for an action; an underlying fact or cause"
+  },
+  {
+    "word": "relaxation",
+    "ipa": "/ˌriːlækˈseɪʃn/",
+    "pos": "n",
+    "meaning": "sự nghỉ ngơi",
+    "notes": "the act of reacting or the state of being relaxed; refreshment of body or mind"
+  },
+  {
+    "word": "taste",
+    "ipa": "/teɪst/",
+    "pos": "n",
+    "meaning": "khẩu vị, thị hiếu",
+    "notes": "the ability to discern what is excellent or appropriate"
+  },
+  {
+    "word": "urge",
+    "ipa": "/ɜːrdʒ/",
+    "pos": "v",
+    "meaning": "thúc giục",
+    "notes": "to advocate earnestly; a natural desire"
+  },
+  {
+    "word": "acquire",
+    "ipa": "/əˈkwaɪər/",
+    "pos": "v",
+    "meaning": "đạt được",
+    "notes": "to gain possession of; to get by one's own efforts"
+  },
+  {
+    "word": "admire",
+    "ipa": "/ədˈmaɪər/",
+    "pos": "v",
+    "meaning": "ngưỡng mộ",
+    "notes": "to regard with pleasure; to have esteem or respect for"
+  },
+  {
+    "word": "collection",
+    "ipa": "/kəˈlekʃn/",
+    "pos": "n",
+    "meaning": "thu thập",
+    "notes": "a group of objects or works to be seen, studied, or kept together"
+  },
+  {
+    "word": "criticism",
+    "ipa": "/ˈkrɪtɪsɪzəm/",
+    "pos": "n",
+    "meaning": "lời phê bình, chỉ trích",
+    "notes": "an evaluation, especially of literary or other artistic works"
+  },
+  {
+    "word": "express",
+    "ipa": "/ɪkˈspres/",
+    "pos": "v",
+    "meaning": "bày tỏ",
+    "notes": "to give an opinion or depict emotion"
+  },
+  {
+    "word": "fashion",
+    "ipa": "/ˈfæʃn/",
+    "pos": "n",
+    "meaning": "thời trang",
+    "notes": "the prevailing style or custom"
+  },
+  {
+    "word": "leisure",
+    "ipa": "/ˈleʒər/",
+    "pos": "n",
+    "meaning": "thời gian rảnh",
+    "notes": "freedom from time-consuming duties; free time"
+  },
+  {
+    "word": "respond",
+    "ipa": "/rɪˈspɒnd/",
+    "pos": "v",
+    "meaning": "đáp lại, phản ứng lại",
+    "notes": "to make a reply; to react"
+  },
+  {
+    "word": "schedule",
+    "ipa": "/ˈskedʒuːl/",
+    "pos": "n",
+    "meaning": "lịch trình",
+    "notes": "a list of times of events; to enter on a schedule"
+  },
+  {
+    "word": "significant",
+    "ipa": "/sɪɡˈnɪfɪkənt/",
+    "pos": "adj",
+    "meaning": "có ý nghĩa, quan trọng",
+    "notes": "meaningful; having a major effect; important"
+  },
+  {
+    "word": "specialize",
+    "ipa": "/ˈspeʃəlaɪz/",
+    "pos": "v",
+    "meaning": "chuyên môn hóa",
+    "notes": "to concentrate on a particular activity"
+  },
+  {
+    "word": "assignment",
+    "ipa": "/əˈsaɪnmənt/",
+    "pos": "n",
+    "meaning": "nhiệm vụ, công việc",
+    "notes": "something, such as a task, that is assigned"
+  },
+  {
+    "word": "choose",
+    "ipa": "/tʃuːz/",
+    "pos": "v",
+    "meaning": "chọn lựa",
+    "notes": "to select one thing over another"
+  },
+  {
+    "word": "constant",
+    "ipa": "/ˈkɒnstənt/",
+    "pos": "n",
+    "meaning": "hằng số",
+    "notes": "something that is unchanging or invariable"
+  },
+  {
+    "word": "constitute",
+    "ipa": "/ˈkɒnstɪtjuːt/",
+    "pos": "v",
+    "meaning": "tạo thành, gây nên",
+    "notes": "to be the elements or parts of; to make up"
+  },
+  {
+    "word": "decisive",
+    "ipa": "/dɪˈsaɪsɪv/",
+    "pos": "adj",
+    "meaning": "quyết đoán",
+    "notes": "characterized by decision and firmness"
+  },
+  {
+    "word": "disseminate",
+    "ipa": "/dɪˈsemɪneɪt/",
+    "pos": "v",
+    "meaning": "truyền bá, phổ biến",
+    "notes": "to scatter widely; to distribute"
+  },
+  {
+    "word": "impact",
+    "ipa": "/ˈɪmpækt/",
+    "pos": "n",
+    "meaning": "tác động, ảnh hưởng",
+    "notes": "a strong, immediate impression"
+  },
+  {
+    "word": "in-depth",
+    "ipa": "/ˌɪnˈdepθ/",
+    "pos": "adj",
+    "meaning": "cặn kẽ, tỉ mỉ",
+    "notes": "complete detailed; thorough"
+  },
+  {
+    "word": "investigate",
+    "ipa": "/ɪnˈvestɪɡeɪt/",
+    "pos": "v",
+    "meaning": "điều tra",
+    "notes": "specialized in uncovering and reporting hidden information"
+  },
+  {
+    "word": "link",
+    "ipa": "/lɪŋk/",
+    "pos": "n",
+    "meaning": "liên kết",
+    "notes": "an association; a relationship"
+  },
+  {
+    "word": "subscribe",
+    "ipa": "/səbˈskraɪb/",
+    "pos": "v",
+    "meaning": "đặt mua",
+    "notes": "to receive a periodical regularly or order"
+  },
+  {
+    "word": "thorough",
+    "ipa": "/ˈθʌrə/",
+    "pos": "adj",
+    "meaning": "kỹ lưỡng, thấu đáo",
+    "notes": "exhaustively complete"
+  }
+]

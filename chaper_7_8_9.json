@@ -1,177 +1,247 @@
 [
   {
     "word": "affordable",
+    "ipa": "/əˈfɔːrdəbl/",
     "pos": "(adj)",
-    "meaning": "phải chăng, có thể chi trả"
+    "meaning": "phải chăng, có thể chi trả",
+    "notes": "able to be paid for"
   },
   {
     "word": "be in charge of",
+    "ipa": "/bi ɪn tʃɑːrdʒ ʌv/",
     "pos": "(v)",
-    "meaning": "đứng đầu, thường trực"
+    "meaning": "đứng đầu, thường trực",
+    "notes": "to be in control or command of"
   },
   {
     "word": "capacity",
+    "ipa": "/kəˈpæsəti/",
     "pos": "(n)",
-    "meaning": "năng lực, khả năng"
+    "meaning": "năng lực, khả năng",
+    "notes": "the ability to contain or hold"
   },
   {
     "word": "durable",
+    "ipa": "/ˈdʊrəbl/",
     "pos": "(adj)",
-    "meaning": "bền bỉ"
+    "meaning": "bền bỉ",
+    "notes": "sturdy, strong, lasting"
   },
   {
     "word": "initiative",
+    "ipa": "/ɪˈnɪʃətɪv/",
     "pos": "(n)",
-    "meaning": "bước đầu, sáng kiến"
+    "meaning": "bước đầu, sáng kiến",
+    "notes": "the first step; an active role"
   },
   {
     "word": "physical",
+    "ipa": "/ˈfɪzɪkl/",
     "pos": "(adj)",
-    "meaning": "vật chất"
+    "meaning": "vật chất",
+    "notes": "perceived by the senses"
   },
   {
     "word": "provider",
+    "ipa": "/prəˈvaɪdər/",
     "pos": "(n)",
-    "meaning": "nhà cung cấp"
+    "meaning": "nhà cung cấp",
+    "notes": "a supplier"
   },
   {
     "word": "recur",
+    "ipa": "/rɪˈkɜːr/",
     "pos": "(v)",
-    "meaning": "lặp lại, tái diễn"
+    "meaning": "lặp lại, tái diễn",
+    "notes": "to occur again or repeatedly"
   },
   {
     "word": "reduction",
+    "ipa": "/rɪˈdʌkʃn/",
     "pos": "(n)",
-    "meaning": "sự thu nhỏ, giảm"
+    "meaning": "sự thu nhỏ, giảm",
+    "notes": "a lessening, a decrease"
   },
   {
     "word": "stay on top of",
+    "ipa": "/steɪ ɒn tɑːp ʌv/",
     "pos": "(v)",
-    "meaning": "xếp hạng đầu"
+    "meaning": "xếp hạng đầu",
+    "notes": "to know what is going on"
   },
   {
     "word": "stock",
-    "pos": "(n)",
-    "meaning": "kho dự trữ"
+    "ipa": "/stɑːk/",
+    "pos": "(n/v)",
+    "meaning": "kho dự trữ",
+    "notes": "a supply; to keep on hand"
   },
   {
     "word": "appreciate",
+    "ipa": "/əˈpriːʃieɪt/",
     "pos": "(v)",
-    "meaning": "đánh giá cao, biết ơn"
+    "meaning": "đánh giá cao, biết ơn",
+    "notes": "to recognize, to be thankful for"
   },
   {
     "word": "be exposed to",
+    "ipa": "/bi ɪkˈspoʊzd tuː/",
     "pos": "(v)",
-    "meaning": "bị phơi này"
+    "meaning": "bị phơi này",
+    "notes": "to become aware of; to gain experience in"
   },
   {
     "word": "bring in",
+    "ipa": "/brɪŋ ɪn/",
     "pos": "(v)",
-    "meaning": "thuê, mướn"
+    "meaning": "thuê, mướn",
+    "notes": "to hire or recruit; to cause to appear"
   },
   {
     "word": "casual",
+    "ipa": "/ˈkæʒuəl/",
     "pos": "(adj)",
-    "meaning": "tình cờ, ngẫu nhiên"
+    "meaning": "tình cờ, ngẫu nhiên",
+    "notes": "informal"
   },
   {
     "word": "code",
+    "ipa": "/koʊd/",
     "pos": "(n)",
-    "meaning": "luật, quy tắc"
+    "meaning": "luật, quy tắc",
+    "notes": "rules of behavior"
   },
   {
     "word": "glimpse",
+    "ipa": "/ɡlɪmps/",
     "pos": "(n)",
-    "meaning": "nhìn lướt qua"
+    "meaning": "nhìn lướt qua",
+    "notes": "a quick look"
   },
   {
     "word": "made of",
+    "ipa": "/meɪd ʌv/",
     "pos": "(v)",
-    "meaning": "bao gồm"
+    "meaning": "bao gồm",
+    "notes": "to consist of"
   },
   {
     "word": "out of",
+    "ipa": "/aʊt ʌv/",
     "pos": "(adj)",
-    "meaning": "hết, cạn kiệt"
+    "meaning": "hết, cạn kiệt",
+    "notes": "no longer having"
   },
   {
     "word": "outdated",
+    "ipa": "/aʊtˈdeɪtɪd/",
     "pos": "(adj)",
-    "meaning": "lỗi thời, lạc hậu"
+    "meaning": "lỗi thời, lạc hậu",
+    "notes": "obsolete; not currently in use"
   },
   {
     "word": "practice",
+    "ipa": "/ˈpræktɪs/",
     "pos": "(n)",
-    "meaning": "thực hành"
+    "meaning": "thói quen",
+    "notes": "a method of doing something"
   },
   {
     "word": "reinforce",
+    "ipa": "/ˌriːɪnˈfɔːrs/",
     "pos": "(v)",
-    "meaning": "tăng cường, củng cố"
+    "meaning": "tăng cường, củng cố",
+    "notes": "to strengthen, support"
   },
   {
     "word": "verbal",
+    "ipa": "/ˈvɜːrbl/",
     "pos": "(adj)",
-    "meaning": "bằng lời nói"
+    "meaning": "bằng lời nói",
+    "notes": ""
   },
   {
     "word": "disk",
+    "ipa": "/dɪsk/",
     "pos": "(n)",
-    "meaning": "đĩa"
+    "meaning": "đĩa",
+    "notes": "an object used to store digital information"
   },
   {
     "word": "facilitate",
+    "ipa": "/fəˈsɪlɪteɪt/",
     "pos": "(v)",
-    "meaning": "tạo điều kiện, làm cho dễ dàng"
+    "meaning": "tạo điều kiện, làm cho dễ dàng",
+    "notes": "to make easier"
   },
   {
     "word": "network",
+    "ipa": "/ˈnetwɜːrk/",
     "pos": "(n)",
-    "meaning": "mạng lưới"
+    "meaning": "mạng lưới",
+    "notes": "an interconnected group or system"
   },
   {
     "word": "popularity",
+    "ipa": "/ˌpɑːpjuˈlærəti/",
     "pos": "(n)",
-    "meaning": "sự phổ biến"
+    "meaning": "sự phổ biến",
+    "notes": "the state of being widely admired or accepted"
   },
   {
     "word": "process",
+    "ipa": "/ˈprɑːses/",
     "pos": "(n)",
-    "meaning": "quá trình"
+    "meaning": "quá trình",
+    "notes": "a series of actions or operations"
   },
   {
     "word": "replace",
+    "ipa": "/rɪˈpleɪs/",
     "pos": "(v)",
-    "meaning": "thay thế"
+    "meaning": "thay thế",
+    "notes": "to put back in place"
   },
   {
     "word": "revolution",
+    "ipa": "/ˌrevəˈluːʃn/",
     "pos": "(n)",
-    "meaning": "cuộc cách mạng"
+    "meaning": "cuộc cách mạng",
+    "notes": "a sudden or momentous change in a situation"
   },
   {
     "word": "sharp",
+    "ipa": "/ʃɑːrp/",
     "pos": "(adj)",
-    "meaning": "sắc nét, thông minh"
+    "meaning": "sắc bén",
+    "notes": ""
   },
   {
-    "word": "skills",
+    "word": "skill",
+    "ipa": "/skɪl/",
     "pos": "(n)",
-    "meaning": "kĩ năng, kĩ xảo"
+    "meaning": "kỹ năng, kỹ xảo",
+    "notes": ""
   },
   {
     "word": "software",
+    "ipa": "/ˈsɔːftwer/",
     "pos": "(n)",
-    "meaning": "phần mềm"
+    "meaning": "phần mềm",
+    "notes": ""
   },
   {
     "word": "storage",
+    "ipa": "/ˈstɔːrɪdʒ/",
     "pos": "(n)",
-    "meaning": "sự lưu trữ"
+    "meaning": "sự lưu trữ",
+    "notes": "the safekeeping of goods or information"
   },
   {
     "word": "technical",
+    "ipa": "/ˈteknɪkl/",
     "pos": "(adj)",
-    "meaning": "chuyên môn, kỹ thuật"
+    "meaning": "chuyên môn, kỹ thuật",
+    "notes": "special skill or knowledge"
   }
 ]

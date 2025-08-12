@@ -1,0 +1,240 @@
+[
+  {
+    "word": "busy",
+    "ipa": "/ˈbɪzi/", 
+    "pos": "adj",
+    "meaning": "bận",
+    "notes": "engaged in activity"
+  },
+  {
+    "word": "coincide",
+    "ipa": "/ˌkoʊɪnˈsaɪd/",
+    "pos": "v",
+    "meaning": "trùng, xảy ra đồng thời",
+    "notes": "to happen at the same time"
+  },
+  {
+    "word": "confusion",
+    "ipa": "/kənˈfjuːʒən/",
+    "pos": "n",
+    "meaning": "sự rối loạn, nhầm lẫn",
+    "notes": "a lack of clarity, order, or understanding"
+  },
+  {
+    "word": "contact",
+    "ipa": "/ˈkɒntækt/",
+    "pos": "v",
+    "meaning": "liên lạc",
+    "notes": "to get in touch with"
+  },
+  {
+    "word": "disappoint",
+    "ipa": "/ˌdɪsəˈpɔɪnt/",
+    "pos": "v",
+    "meaning": "thất vọng",
+    "notes": "to fail to satisfy the hope, desire, or expectation of"
+  },
+  {
+    "word": "intend",
+    "ipa": "/ɪnˈtɛnd/",
+    "pos": "v",
+    "meaning": "định, dự định",
+    "notes": "to have in mind"
+  },
+  {
+    "word": "license",
+    "ipa": "/ˈlaɪsəns/",
+    "pos": "n",
+    "meaning": "giấy phép",
+    "notes": "the legal permission to do or own a specified thing"
+  },
+  {
+    "word": "nervous",
+    "ipa": "/ˈnɜːrvəs/",
+    "pos": "adj",
+    "meaning": "lo lắng",
+    "notes": "easily agitated or distressed; uneasy or apprehensive"
+  },
+  {
+    "word": "optional",
+    "ipa": "/ˈɒpʃənl/",
+    "pos": "adj",
+    "meaning": "không bắt buộc",
+    "notes": "not compulsory or automatic"
+  },
+  {
+    "word": "tempt",
+    "ipa": "/tempt/",
+    "pos": "v",
+    "meaning": "cám dỗ, dụ dỗ",
+    "notes": "to be inviting or attractive to"
+  },
+  {
+    "word": "attain",
+    "ipa": "/əˈteɪn/",
+    "pos": "v",
+    "meaning": "đạt được",
+    "notes": "to achieve"
+  },
+  {
+    "word": "combine",
+    "ipa": "/kəmˈbaɪn/",
+    "pos": "v",
+    "meaning": "kết hợp, phối hợp",
+    "notes": "to come together"
+  },
+  {
+    "word": "continue",
+    "ipa": "/kənˈtɪnjuː/",
+    "pos": "v",
+    "meaning": "tiếp tục",
+    "notes": "to maintain without interruption"
+  },
+  {
+    "word": "description",
+    "ipa": "/dɪˈskrɪpʃən/",
+    "pos": "n",
+    "meaning": "sự mô tả, miêu tả",
+    "notes": "a representation in words or pictures"
+  },
+  {
+    "word": "disperse",
+    "ipa": "/dɪˈspɜːrs/",
+    "pos": "v",
+    "meaning": "phân tán, giải tán",
+    "notes": "to spread widely, to scatter"
+  },
+  {
+    "word": "entertainment",
+    "ipa": "/ˌentərˈteɪnmənt/",
+    "pos": "n",
+    "meaning": "giải trí",
+    "notes": "a diverting performance or activity"
+  },
+  {
+    "word": "influence",
+    "ipa": "/ˈɪnfluəns/",
+    "pos": "v",
+    "meaning": "ảnh hưởng, tác động",
+    "notes": "to alter or affect"
+  },
+  {
+    "word": "range",
+    "ipa": "/reɪndʒ/",
+    "pos": "n",
+    "meaning": "phạm vi, trình độ",
+    "notes": "the scope"
+  },
+  {
+    "word": "release",
+    "ipa": "/rɪˈliːs/",
+    "pos": "v",
+    "meaning": "phát hành",
+    "notes": "to make available to the public; to give permission for performance"
+  },
+  {
+    "word": "represent",
+    "ipa": "/ˌreprɪˈzent/",
+    "pos": "v",
+    "meaning": "đóng, diễn (kịch)",
+    "notes": "to typify"
+  },
+  {
+    "word": "separate",
+    "ipa": "/ˈsepəreɪt/",
+    "pos": "adj",
+    "meaning": "riêng biệt",
+    "notes": "detached; kept apart"
+  },
+  {
+    "word": "successive",
+    "ipa": "/səkˈsesɪv/",
+    "pos": "adj",
+    "meaning": "lần lượt",
+    "notes": "following in order"
+  },
+  {
+    "word": "acting",
+    "ipa": "/ˈæktɪŋ/",
+    "pos": "n",
+    "meaning": "diễn xuất",
+    "notes": "the series of events that form the plot of a story or play"
+  },
+  {
+    "word": "approach",
+    "ipa": "/əˈproʊtʃ/",
+    "pos": "v",
+    "meaning": "đến gần, lại gần",
+    "notes": "to go near; to come close in appearance or quality; a way or means of reaching something"
+  },
+  {
+    "word": "audience",
+    "ipa": "/ˈɔːdiəns/",
+    "pos": "n",
+    "meaning": "khán giả",
+    "notes": "the spectators at a performance"
+  },
+  {
+    "word": "create",
+    "ipa": "/kriˈeɪt/",
+    "pos": "v",
+    "meaning": "sáng tạo",
+    "notes": "to produce through artistic or imaginative effort"
+  },
+  {
+    "word": "dialogue",
+    "ipa": "/ˈdaɪəlɒɡ/",
+    "pos": "n",
+    "meaning": "cuộc đối thoại",
+    "notes": "a conversation between two or more persons"
+  },
+  {
+    "word": "element",
+    "ipa": "/ˈelɪmənt/",
+    "pos": "n",
+    "meaning": "chi tiết",
+    "notes": "fundamental or essential constituent"
+  },
+  {
+    "word": "experience",
+    "ipa": "/ɪkˈspɪriəns/",
+    "pos": "n",
+    "meaning": "kinh nghiệm",
+    "notes": "an event or a series of events participated in or lived through"
+  },
+  {
+    "word": "occur",
+    "ipa": "/əˈkɜːr/",
+    "pos": "v",
+    "meaning": "xảy ra, xuất hiện",
+    "notes": "to take place; to come about"
+  },
+  {
+    "word": "perform",
+    "ipa": "/pərˈfɔːrm/",
+    "pos": "v",
+    "meaning": "biểu diễn, trình diễn",
+    "notes": "to act before an audience, to give a public presentation"
+  },
+  {
+    "word": "rehearse",
+    "ipa": "/rɪˈhɜːrs/",
+    "pos": "v",
+    "meaning": "diễn tập",
+    "notes": "to practice in preparation for a public performance; to direct in rehearsal"
+  },
+  {
+    "word": "review",
+    "ipa": "/rɪˈvjuː/",
+    "pos": "n",
+    "meaning": "sự phê bình, lời phê bình",
+    "notes": "a critical estimate of a work or performance"
+  },
+  {
+    "word": "sell out",
+    "ipa": "/sel aʊt/",
+    "pos": "v",
+    "meaning": "bán hết",
+    "notes": "to sell all tickets or accommodations completely sold, especially ahead of time"
+  }
+]

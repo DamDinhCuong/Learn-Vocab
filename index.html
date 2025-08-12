@@ -57,7 +57,7 @@
         padding: 28px;
         box-shadow: 0 6px 20px rgba(16, 24, 40, 0.06);
         text-align: center;
-        margin-top: 20px;
+        margin-top: 30px;
       }
       .word {
         font-size: 38px;
@@ -141,6 +141,28 @@
         border: 1px solid #e5e7eb;
         margin-top: 8px;
       }
+      
+      /* CSS cho các nút chương */
+      .chaper {
+        margin: 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+      }
+      
+      .chaper button {
+        background: #0d145d;
+        color: #fff;
+        transition: all 0.2s ease;
+        min-width: 130px;
+      }
+      
+      .chaper button.active {
+        background: var(--accent);
+        color: white;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -153,11 +175,31 @@
           <button id="changeBtn">Đổi</button>
         </div>
       </header>
-
+      <div class="chaper">
+          <button id="changeChaper_default">Chương ban đầu</button>
+          <button id="changeChaper_1_2_3">Chương 1/2/3</button>
+          <button id="changeChaper_4_5_6">Chương 4/5/6</button>
+          <button id="changeChaper_7_8_9">Chương 7/8/9</button>
+          <button id="changeChaper_10_11_12">Chương 10/11/12</button>
+          <button id="changeChaper_13_14_15">Chương 13/14/15</button>
+          <button id="changeChaper_16_17_18">Chương 16/17/18</button>
+          <button id="changeChaper_19_20_21">Chương 19/20/21</button>
+          <button id="changeChaper_22_23_24">Chương 22/23/24</button>
+          <button id="changeChaper_25_26_27">Chương 25/26/27</button>
+          <button id="changeChaper_28_29_30">Chương 28/29/30</button>
+          <button id="changeChaper_31_32_33">Chương 31/32/33</button>
+          <button id="changeChaper_34_35_36">Chương 34/35/36</button>
+          <button id="changeChaper_37_38_39">Chương 37/38/39</button>
+          <button id="changeChaper_40_41_42">Chương 40/41/42</button>
+          <button id="changeChaper_43_44_45">Chương 43/44/45</button>
+          <button id="changeChaper_46_47_48">Chương 46/47/48</button>
+          <button id="changeChaper_49_50_51">Chương 49/50/51</button>
+      </div>
       <div class="card" id="flashcard">
         <div class="pos" id="pos">(n)</div>
         <div class="word" id="word">a bottle of water</div>
         <div class="ipa" id="ipa">/ə ˈbɒtl ɒv ˈwɔːtər/</div>
+        <div class="notes" id="notes">Ghi chú: dùng để chỉ 1 chai nước.</div>
         <div class="enter_mean">
             <input type="text" id="input"autocomplete="off" 
                 autocorrect="off"
@@ -166,7 +208,6 @@
             >
         </div>
         <div class="meaning" id="meaning">chai nước</div>
-        <div class="notes" id="notes">Ghi chú: dùng để chỉ 1 chai nước.</div>
         <div class="actions">
           <button class="small" id="prevBtn">Trở về</button>
           <button class="small" id="showBtn">Hiện nghĩa</button>
@@ -194,7 +235,9 @@
 <script>
     let vocab = [];
     let isChange = 'en';
-    fetch('vocab.json')
+    let currentChapter = 'default'; // Lưu trữ chương hiện tại
+    
+    fetch('chaper_default.json')
     .then(response => response.json())
     .then(data => {
         vocab = data;
@@ -219,7 +262,6 @@
             ipaEl.textContent = "";
             posEl.textContent = "";
             meaningEl.style.display = "none";
-            notesEl.style.display = "none";
             meaningEl.textContent = "";
             notesEl.textContent = "";
             inputEL.value = "";
@@ -235,14 +277,14 @@
             wordEl.style.display = "none";
             ipaEl.style.display = "none";
             posEl.style.display = "none";
-            notesEl.style.display = "block";
+            notesEl.style.display = "none";
             meaningEl.style.display = "block";
             inputEL.value = "";
         } else { // Chế độ tiếng Anh
             wordEl.style.display = "block";
             ipaEl.style.display = "block";
             posEl.style.display = "block";
-            notesEl.style.display = "none";
+            notesEl.style.display = "block";
             meaningEl.style.display = "none";
             inputEL.value = "";
         }
@@ -441,6 +483,45 @@
         isChange = isChange == 'vi' ?'en':'vi';
         render(0);
     });
+    
+    // Hàm để cập nhật trạng thái active của nút chương
+    function updateActiveChapterButton(chapterId) {
+        // Xóa class active từ tất cả các nút
+        document.querySelectorAll('[id^="changeChaper_"]').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        
+        // Thêm class active cho nút được chọn
+        const buttonId = `changeChaper_${chapterId}`;
+        const button = document.getElementById(buttonId);
+        if (button) {
+            button.classList.add('active');
+        }
+        
+        // Cập nhật chương hiện tại
+        currentChapter = chapterId;
+    }
+    
+    // Xử lý sự kiện click cho các nút chương
+    document.querySelectorAll('[id^="changeChaper_"]').forEach(button => {
+        button.addEventListener('click', () => {
+            const chaperId = button.id.replace('changeChaper_', '');
+            const jsonFile = `chaper_${chaperId}.json`;
+            
+            fetch(jsonFile)
+                .then(response => response.json())
+                .then(data => {
+                    vocab = data;
+                    index = 0;
+                    render(0);
+                    updateActiveChapterButton(chaperId);
+                })
+                .catch(error => console.error(`Error loading ${jsonFile}:`, error));
+        });
+    });
+    
+    // Đặt active cho chương mặc định khi trang được tải
+    updateActiveChapterButton('default');
     // keyboard shortcuts
     document.addEventListener("keydown", (e) => {
         if (e.key === "Enter") {
